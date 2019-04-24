@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: src/LearningCircles/Browse.jsx:20
+msgid "Start a learning circle in your neighborhood"
+msgstr ""
+
+#: src/LearningCircles/LearningCircleCard.jsx:47
+msgid "Facilitated by ${ learningCircle.facilitator }"
+msgstr ""
+
+#: src/LearningCircles/LearningCircleCard.jsx:51
+msgid "Meeting at ${ learningCircle.venue }"
+msgstr ""
+
+#: src/LearningCircles/LearningCircleCard.jsx:56
+msgid "Sign up"
+msgstr ""
+
+#: src/Search/SearchBar.jsx:17
+msgid "Search"
+msgstr ""
+
+#: src/Search/SearchTags.jsx:171
+msgid "Showing ${ props.searchResults.length } of ${ props.totalResults } result"
+msgid_plural "Showing ${ props.searchResults.length } of ${ props.totalResults } results"
+msgstr[0] ""
+msgstr[1] ""
