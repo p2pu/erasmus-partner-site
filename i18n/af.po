@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: src/LearningCircles/Browse.jsx:20
+msgid "Start a learning circle in your neighborhood"
+msgstr "Begin a leersirkel in you buurt"
+
+#: src/LearningCircles/LearningCircleCard.jsx:47
+msgid "Facilitated by ${ learningCircle.facilitator }"
+msgstr "Gefasiliteer deur ${ learningCircle.facilitator }"
+
+#: src/LearningCircles/LearningCircleCard.jsx:51
+msgid "Meeting at ${ learningCircle.venue }"
+msgstr "Ontmoet by ${ learningCircle.venue }"
+
+#: src/LearningCircles/LearningCircleCard.jsx:56
+msgid "Sign up"
+msgstr "Skryf in"
+
+#: src/Search/SearchBar.jsx:17
+msgid "Search"
+msgstr "Soek"
+
+#: src/Search/SearchTags.jsx:172
+msgid "Showing ${ props.searchResults.length } of ${ props.totalResults } result"
+msgid_plural "Showing ${ props.searchResults.length } of ${ props.totalResults } results"
+msgstr[0] ""
+"Vertoon ${ props.searchResults.length } van ${ props.totalResults } "
+"resultaat"
+msgstr[1] ""
+"Vertoon ${ props.searchResults.length } van ${ props.totalResults } "
+"resultate"
+
+#: src/Filters/FilterButton.jsx:6
+msgid "Location"
+msgstr "Ligging"
+
+#: src/Filters/FilterButton.jsx:7
+msgid "Language"
+msgstr "Taal"
+
+#: src/Filters/FilterButton.jsx:8
+msgid "Topics"
+msgstr "Onderwerpe"
+
+#: src/Filters/FilterButton.jsx:9
+msgid "Meeting Day(s)"
+msgstr "Ontmoeting dag/dae"
+
+#: src/Filters/FilterButton.jsx:10
+msgid "Sort by"
+msgstr "Sorteer volgens"
+
+#: src/Filters/FilterButton.jsx:11
+msgid "OER mode"
+msgstr "OER mode"
+
+#: src/utils/constants.js:28
+msgid "Keyword, organization, facilitator, etc..."
+msgstr "Sleutelwoorde, organisasie, fasiliteerder, ens..."
+
+#: src/Filters/LocationFilterForm.jsx:45
+msgid "Unable to detect location."
+msgstr "Kon nie ligging opspoor nie"
+
+#: src/Filters/LocationFilterForm.jsx:56
+msgid "Geolocation is not supported by this browser."
+msgstr "Geolocation word nie deur hierdie blaaier ondersteun nie."
+
+#: src/Filters/LocationFilterForm.jsx:72
+msgid "Use my current location"
+msgstr "Gebruik my huidige ligging"
+
+#: src/Filters/LocationFilterForm.jsx:77
+msgid "Detecting your location..."
+msgstr "Ontdek jou ligging ..."
+
+#: src/Filters/LocationFilterForm.jsx:79
+msgid "Using your current location"
+msgstr "Gebruik jou huidige ligging"
+
+#: src/Filters/LocationFilterForm.jsx:139
+#: src/Filters/LocationFilterForm.jsx:143
+msgid "Select a location"
+msgstr "Kies 'n plek"
+
+#: src/Filters/LocationFilterForm.jsx:100
+msgid "miles"
+msgstr "myl"
+
+#: src/Filters/LocationFilterForm.jsx:102
+msgid "Within ${ value } ${ unit }"
+msgstr "Binne ${ value } ${ unit }"
+
+#: src/utils/constants.js:4
+msgid "Monday"
+msgstr "Maandag"
+
+#: src/utils/constants.js:5
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: src/utils/constants.js:6
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: src/utils/constants.js:7
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: src/utils/constants.js:8
+msgid "Friday"
+msgstr "Vrydag"
+
+#: src/utils/constants.js:9
+msgid "Saturday"
+msgstr "Saturdag"
+
+#: src/utils/constants.js:10
+msgid "Sunday"
+msgstr "Sondag"
+
+#: src/LearningCircles/LearningCircleCard.jsx:14
+msgid ""
+"${ learningCircle.day } from ${ formattedStartTime } to ${ formattedEndTime "
+"} (${ learningCircle.time_zone })"
+msgstr ""
+"${ learningCircle.day } vanaf ${ formattedStartTime } tot ${ "
+"formattedEndTime } (${ learningCircle.time_zone })"
+
+#: src/LearningCircles/LearningCircleCard.jsx:15
+msgid "${ learningCircle.weeks } weeks starting ${ formattedDate }"
+msgstr "${ learningCircle.weeks } weke vanaf ${ formattedDate }"
+
+#: src/Filters/TopicsFilterForm.jsx:59
+msgid "What topics are you interested in?"
+msgstr "Watter onderwerpe stel jy belang in?"
+
+#: src/Filters/TopicsFilterForm.jsx:65
+msgid "Select as many topics as you want"
+msgstr "Kies soveel onderwerpe as wat jy wil"
