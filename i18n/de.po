@@ -1,137 +1,147 @@
+# Translators:
+# Pranke <Juliana.Pranke@zlb.de>, 2019
+# 
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=utf-8\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Last-Translator: Pranke <Juliana.Pranke@zlb.de>, 2019\n"
+"Language-Team: German (https://www.transifex.com/p2pu/teams/98473/de/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/LearningCircles/Browse.jsx:20
 msgid "Start a learning circle in your neighborhood"
-msgstr ""
+msgstr "Starte einen Lernkreis in deiner Umgebung"
 
 #: src/LearningCircles/LearningCircleCard.jsx:47
 msgid "Facilitated by ${ learningCircle.facilitator }"
-msgstr ""
+msgstr "Durchgeführt von ${ learningCircle.facilitator }"
 
 #: src/LearningCircles/LearningCircleCard.jsx:51
 msgid "Meeting at ${ learningCircle.venue }"
-msgstr ""
+msgstr "Ort des Treffens: ${ learningCircle.venue }"
 
 #: src/LearningCircles/LearningCircleCard.jsx:56
 msgid "Sign up"
-msgstr ""
+msgstr "Anmeldung"
 
 #: src/Search/SearchBar.jsx:17
 msgid "Search"
-msgstr ""
+msgstr "Suche"
 
 #: src/Search/SearchTags.jsx:172
-msgid "Showing ${ props.searchResults.length } of ${ props.totalResults } result"
-msgid_plural "Showing ${ props.searchResults.length } of ${ props.totalResults } results"
+msgid ""
+"Showing ${ props.searchResults.length } of ${ props.totalResults } result"
+msgid_plural ""
+"Showing ${ props.searchResults.length } of ${ props.totalResults } results"
 msgstr[0] ""
 msgstr[1] ""
 
 #: src/Filters/FilterButton.jsx:6
 msgid "Location"
-msgstr ""
+msgstr "Ort"
 
 #: src/Filters/FilterButton.jsx:7
 msgid "Language"
-msgstr ""
+msgstr "Sprache"
 
 #: src/Filters/FilterButton.jsx:8
 msgid "Topics"
-msgstr ""
+msgstr "Themen"
 
 #: src/Filters/FilterButton.jsx:9
 msgid "Meeting Day(s)"
-msgstr ""
+msgstr "Tag(e) der Lernkreistreffen"
 
 #: src/Filters/FilterButton.jsx:10
 msgid "Sort by"
-msgstr ""
+msgstr "Filter"
 
 #: src/Filters/FilterButton.jsx:11
 msgid "OER mode"
-msgstr ""
+msgstr "OER Modus (Lizensierung der Lehr- und Lernmaterialien)"
 
 #: src/LearningCircles/LearningCircleCard.jsx:14
 msgid ""
 "${ learningCircle.day } from ${ formattedStartTime } to ${ formattedEndTime "
 "} (${ learningCircle.time_zone })"
 msgstr ""
+"${ learningCircle.day } von ${ formattedStartTime } bis ${ formattedEndTime "
+"} (${ learningCircle.time_zone })"
 
 #: src/LearningCircles/LearningCircleCard.jsx:15
 msgid "${ learningCircle.weeks } weeks starting ${ formattedDate }"
-msgstr ""
+msgstr "${ learningCircle.weeks } Wochen ab ${ formattedDate }"
 
 #: src/utils/constants.js:4
 msgid "Monday"
-msgstr ""
+msgstr "Montag"
 
 #: src/utils/constants.js:5
 msgid "Tuesday"
-msgstr ""
+msgstr "Dienstag"
 
 #: src/utils/constants.js:6
 msgid "Wednesday"
-msgstr ""
+msgstr "Mittwoch"
 
 #: src/utils/constants.js:7
 msgid "Thursday"
-msgstr ""
+msgstr "Donnerstag"
 
 #: src/utils/constants.js:8
 msgid "Friday"
-msgstr ""
+msgstr "Freitag"
 
 #: src/utils/constants.js:9
 msgid "Saturday"
-msgstr ""
+msgstr "Samstag"
 
 #: src/utils/constants.js:10
 msgid "Sunday"
-msgstr ""
+msgstr "Sonnabend"
 
 #: src/utils/constants.js:28
 msgid "Keyword, organization, facilitator, etc..."
-msgstr ""
+msgstr "Stichwort, Organisation, Lernkreis-Initiator/in, etc."
 
 #: src/Filters/LocationFilterForm.jsx:45
 msgid "Unable to detect location."
-msgstr ""
+msgstr "Dieser Ort wurde nicht gefunden."
 
 #: src/Filters/LocationFilterForm.jsx:56
 msgid "Geolocation is not supported by this browser."
-msgstr ""
+msgstr "Diese Geolocation wird nicht vom Browser unterstützt."
 
 #: src/Filters/LocationFilterForm.jsx:72
 msgid "Use my current location"
-msgstr ""
+msgstr "Aktuellen Standort nutzen "
 
 #: src/Filters/LocationFilterForm.jsx:77
 msgid "Detecting your location..."
-msgstr ""
+msgstr "Standort wird ermittelt..."
 
 #: src/Filters/LocationFilterForm.jsx:79
 msgid "Using your current location"
-msgstr ""
+msgstr "Aktueller Standort ausgewählt"
 
 #: src/Filters/LocationFilterForm.jsx:100
 msgid "miles"
-msgstr ""
+msgstr "Kilometer"
 
 #: src/Filters/LocationFilterForm.jsx:102
 msgid "Within ${ value } ${ unit }"
-msgstr ""
+msgstr "im Umkreis von"
 
 #: src/Filters/LocationFilterForm.jsx:139
 #: src/Filters/LocationFilterForm.jsx:143
 msgid "Select a location"
-msgstr ""
+msgstr "Wähle einen Ort"
 
 #: src/Filters/TopicsFilterForm.jsx:59
 msgid "What topics are you interested in?"
-msgstr ""
+msgstr "Welche Themen interessieren dich?"
 
 #: src/Filters/TopicsFilterForm.jsx:65
 msgid "Select as many topics as you want"
-msgstr ""
+msgstr "Wähle so viele Themen wie du willst"
