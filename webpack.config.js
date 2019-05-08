@@ -1,18 +1,35 @@
-var path = require("path");
+const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const AssetsPlugin = require('assets-webpack-plugin');
 
 module.exports = {
   mode: 'production',
   entry: {
     index: './assets/jsx/index.jsx',
-    'learner-signup': './assets/jsx/learner-signup.jsx'
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: [ "babel-loader"]
+        use: {
+          loader:  "babel-loader",
+          options: {
+            plugins: [
+              [ 
+                'ttag', {
+                  extract: { 
+                    output: 'i18n/poly.pot'
+                  },
+                  resolve: { 
+                    translations: `i18n/de.po`,
+                  },
+                  numberedExpressions: false,
+                },
+              ],
+            ],
+          },
+        },
       },
       {
         test: /\.(css|sass|scss)$/,
@@ -39,12 +56,17 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[name].css",
     }),
+    new AssetsPlugin({
+      filename: 'bundles.json',
+      path: path.resolve('./_data'),
+    }),
   ],
   resolve: {
     extensions: ['.js', '.jsx', '.scss']
   },
   output: {
     path: path.resolve(__dirname, 'assets/dist'),
-    filename: '[name].js'
+    filename: '[name].js',
+    publicPath: '/assets/dist/',
   }
 }

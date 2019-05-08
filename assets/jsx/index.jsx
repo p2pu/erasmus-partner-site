@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import {Search, BrowseLearningCircles} from "p2pu-search-cards/dist/build-de";
+import {Search, BrowseLearningCircles} from "p2pu-search-cards/dist/build-de.js";
 
 import "p2pu-search-cards/dist/build.css"
 import "p2pu-theme/src/scss/base.scss"

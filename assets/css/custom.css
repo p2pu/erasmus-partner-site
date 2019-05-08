@@ -101,6 +101,10 @@ section:nth-of-type(4n+7) {
   background-color: rgba(252,113,0,0.15);
 }
 
+header img {
+    max-width: 100%;
+}
+
 header.page-title {
   display: flex;
   flex-direction: column;
@@ -181,7 +185,7 @@ header.page-title h1 {
 }
 
 #page-header {
-  background: url(../img/post-its.jpg) no-repeat center center fixed;
+  background: url(../img/berlin-workshop.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

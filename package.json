@@ -10,13 +10,14 @@
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-ttag": "^1.7.13",
     "bootstrap": "^4.3.1",
     "css-loader": "^2.1.1",
     "jsonp": "^0.2.1",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "p2pu-input-fields": "^0.5.22",
-    "p2pu-search-cards": "^0.13.0",
+    "p2pu-search-cards": "^0.13.2",
     "p2pu-theme": "^1.1.3",
     "rc-time-picker": "^3.6.4",
     "react": "^16.8.6",
@@ -24,16 +25,18 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "ttag": "^1.7.13",
+    "ttag-cli": "^1.7.13",
     "webpack": "^4.30.0"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
+    "assets-webpack-plugin": "^3.9.10",
     "mini-css-extract-plugin": "^0.6.0",
     "webpack-cli": "^3.3.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "webpack --mode development",
+    "i18n:update": "ttag update i18n/en.po assets/jsx/*",
     "watch": "webpack --mode development --watch"
   },
   "repository": {
