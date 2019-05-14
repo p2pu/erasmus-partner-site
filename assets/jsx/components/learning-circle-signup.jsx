@@ -40,7 +40,7 @@ const LearningCircleSignup = ({learningCircle, ...props}) => {
             </div>
 
             <div className="col-md-8">
-              <SignupForm {...props} />
+              <SignupForm learningCircle={learningCircle} {...props} />
             </div>
           </div>
         </div>

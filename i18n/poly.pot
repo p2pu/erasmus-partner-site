@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: assets/jsx/components/signup-form.jsx:11
+msgid "To increase my employability"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:12
+msgid "Professional development for my current job"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:13
+msgid "To accompany other educational programs"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:14
+msgid "Personal interest"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:15
+msgid "Social reasons"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:16
+msgid "For fun / to try something new"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:17
+msgid "Other"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:21
+msgid "Both"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:22
+msgid "Just a laptop"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:23
+msgid "Just headphones"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:24
+msgid "Neither"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:28
+msgid "Can't do"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:29
+msgid "Need help doing"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:30
+msgid "Can do with difficulty"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:31
+msgid "Can do"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:32
+msgid "Expert (can teach others)"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:134
+msgid "Name"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:143
+msgid "Email address"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:152
+msgid "What is your goal for taking this learning circle?"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:157
+#: assets/jsx/components/signup-form.jsx:177
+#: assets/jsx/components/signup-form.jsx:187
+msgid "Select one of the following"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:161
+msgid ""
+"A successful study group requires the support of all of its members. How "
+"will you help your peers achieve their goals?"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:170
+msgid "Can you bring a laptop and headphones to the learning circle each week?"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:180
+msgid "How comfortable are you using the internet?"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:190
+msgid ""
+"If you’d like to receive weekly text messages reminding you of upcoming "
+"learning circle meetings, put your phone number here."
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:198
+msgid "Your number won't be shared with other participants."
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:200
+msgid ""
+"Would you like to receive information about other learning opportunities in "
+"the future."
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:208
+msgid "Sign up"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:211
+msgid "Back to search"
+msgstr ""
+
+#: assets/jsx/components/signup-form.jsx:215
+msgid "Submitting..."
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:20
+msgid "Sign up for ${ course.title }"
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:30
+msgid "Facilitated by ${ learningCircle.facilitator }"
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:31
+msgid "Course materials provided by ${ courseProviderLink }"
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:34
+msgid ""
+"This learning circle meets ${ meetingDay } from ${ startTime } to ${ "
+"endTime } ${ learningCircle.time_zone }, ${ startDate }."
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:37
+msgid ""
+"This learning circle meets every ${ meetingDay } from ${ startTime } to ${ "
+"endTime } ${ learningCircle.time_zone } starting ${ startDate } for ${ "
+"learningCircle.weeks } weeks."
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:39
+msgid "At ${ venueLink }, ${ learningCircle.venue_address }"
+msgstr ""
+
+#: assets/jsx/utils/i18n.js:4
+msgid "Monday"
+msgstr ""
+
+#: assets/jsx/utils/i18n.js:5
+msgid "Tuesday"
+msgstr ""
+
+#: assets/jsx/utils/i18n.js:6
+msgid "Wednesday"
+msgstr ""
+
+#: assets/jsx/utils/i18n.js:7
+msgid "Thursday"
+msgstr ""
+
+#: assets/jsx/utils/i18n.js:8
+msgid "Friday"
+msgstr ""
+
+#: assets/jsx/utils/i18n.js:9
+msgid "Saturday"
+msgstr ""
+
+#: assets/jsx/utils/i18n.js:10
+msgid "Sunday"
+msgstr ""
+
+#: assets/jsx/components/signup-success.jsx:9
+msgid ""
+"Thank you for signing up. We've sent you an email introducing you to your "
+"facilitator and we'll send you a reminder two days before each meeting."
+msgstr ""

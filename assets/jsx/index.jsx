@@ -38,6 +38,7 @@ class App extends React.Component {
             <LearningCircleSignup 
               onCancel={this.handleSignupDialogClose} 
               learningCircle={this.state.selectedLearningCircle}
+              signUpUrl='http://staging-learningcircles.p2pu.org/api/signup/'
             /> 
         }
         <div className={this.state.selectedLearningCircle?'d-none':''}>

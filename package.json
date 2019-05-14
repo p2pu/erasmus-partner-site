@@ -32,11 +32,13 @@
     "@babel/preset-react": "^7.0.0",
     "assets-webpack-plugin": "^3.9.10",
     "mini-css-extract-plugin": "^0.6.0",
-    "webpack-cli": "^3.3.1"
+    "promise-polyfill": "^8.1.0",
+    "webpack-cli": "^3.3.1",
+    "whatwg-fetch": "^3.0.0"
   },
   "scripts": {
+    "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
-    "i18n:update": "ttag update i18n/en.po assets/jsx/*",
     "watch": "webpack --mode development --watch"
   },
   "repository": {
