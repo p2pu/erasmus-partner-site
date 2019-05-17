@@ -150,6 +150,7 @@ export default class SignupForm extends React.Component {
               />
               <SelectWithLabel
                 label={t`What is your goal for taking this learning circle?`}
+                classes="no-flex form-group"
                 name={'goals'}
                 value={goals}
                 options={GOAL_OPTIONS}
@@ -168,7 +169,7 @@ export default class SignupForm extends React.Component {
               />
               <SelectWithLabel
                 label={t`Can you bring a laptop and headphones to the learning circle each week?`}
-                classes='no-flex'
+                classes='no-flex form-group'
                 options={COMPUTER_ACCESS_OPTIONS}
                 multi={false}
                 value={computer_access}
@@ -178,7 +179,7 @@ export default class SignupForm extends React.Component {
               />
               <SelectWithLabel
                 label={t`How comfortable are you using the internet?`}
-                classes='no-flex'
+                classes='no-flex form-group'
                 options={DIGITAL_LITERACY_OPTIONS}
                 multi={false}
                 value={use_internet}
@@ -197,6 +198,7 @@ export default class SignupForm extends React.Component {
               />
               <p>{t`Your number won't be shared with other participants.`}</p>
               <CheckboxWithLabel
+                classes="d-flex"
                 label={t`Would you like to receive information about other learning opportunities in the future?`}
                 value={communications_opt_in}
                 handleChange={this.onDataChange}
@@ -205,11 +207,11 @@ export default class SignupForm extends React.Component {
                 errorMessage={''}
                 required={false}
               />
-              <button className="p2pu-btn btn-primary" onClick={this.onSubmit}>{t`Sign up`}</button>
+              <button className="p2pu-btn blue" onClick={this.onSubmit}>{t`Sign up`}</button>
             </div>
         }
-        <button className="p2pu-btn btn-danger" onClick={this.props.onCancel}>{t`Back to search`}</button>
-        { this.state.submitting && 
+        <button className="p2pu-btn blue secondary" onClick={this.props.onCancel}>{t`Back to search`}</button>
+        { this.state.submitting &&
             <div className="signup-form-submitting" style={{position: 'absolute', top: '0px', left: '0px', width: '100%', height: '100%', background: 'rgba(255,255,255, 0.9)', ['text-align']: 'center'}}>
               <div className="spinner-border" role="status">
                 <span className="sr-only">{t`Submitting...`}</span>

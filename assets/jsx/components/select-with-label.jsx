@@ -22,7 +22,7 @@ export default class SelectWithLabel extends React.Component {
     return (
         <SWL
           label={this.props.label}
-          classes='no-flex'
+          classes={this.props.classes}
           options={this.props.options}
           multi={this.props.multi}
           value={value}

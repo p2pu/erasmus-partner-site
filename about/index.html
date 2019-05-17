@@ -2,28 +2,38 @@
 layout: base
 ---
 
-<section id="about">
-  <div class="content" data-aos="slide-up">
-    <h2>Über uns</h2>
-    <p>Lernteams (learning circles) wurden 2015 von der Peer 2 Peer University (P2PU) und der Öffentlichen Bibliothek Chicago ins Leben gerufen. Seitdem hat sich das Modell des „Peer-Learning in Bibliotheken“ auf Bibliotheken und Gemeindezentren in ganz Nordamerika, Ostafrika und Teilen Europas ausgedehnt. In diesem Jahr ist die ZLB stolz darauf, zusammen mit P2PU Lernteams nach Berlin zu bringen.</p>
+<section id="about" class="bg-secondary" data-aos="slide-up">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Über uns</h2>
+        <p>Lernteams (learning circles) wurden 2015 von der Peer 2 Peer University (P2PU) und der Öffentlichen Bibliothek Chicago ins Leben gerufen. Seitdem hat sich das Modell des „Peer-Learning in Bibliotheken“ auf Bibliotheken und Gemeindezentren in ganz Nordamerika, Ostafrika und Teilen Europas ausgedehnt. In diesem Jahr ist die ZLB stolz darauf, zusammen mit P2PU Lernteams nach Berlin zu bringen.</p>
+      </div>
+    </div>
   </div>
 </section>
 
 <section id="faq">
-  <div class="content" data-aos="slide-up">
-    <h2>Häufig gestellte Fragen</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-12" data-aos="slide-up">
+        <h2>Häufig gestellte Fragen</h2>
 
-    <div class="faq-questions">
+        <div class="faq-questions">
+          {% for faq in site.faq %}
+            <div class="faq-container mb-4" data-aos="fade">
+              <div class="question">
+                <h3>{{faq.title}}</h3>
+              </div>
+              <div class="answer">
+                <p>{{faq.content}}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
 
-      {% for faq in site.faq %}
-      <div class="faq-container">
-        <div class="question">
-          <h3>{{faq.title}}</h3>
-        </div>
-        <div class="answer">
-          <p>{{faq.content}}</p>
-        </div>
       </div>
-      {% endfor %}
+    </div>
+  </div>
 </section>
 
