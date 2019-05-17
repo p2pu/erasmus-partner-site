@@ -7607,7 +7607,7 @@ $p2pu-orange:           #FC7100;
 
 */
 body {
-  padding-top: 64px;
+  padding-top: 60px;
   /*navbar-height*/ }
 
 section {
@@ -7652,6 +7652,10 @@ section {
 #top-nav {
   background-color: #fff;
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1); }
+  #top-nav .logos {
+    order: 1; }
+  #top-nav .navbar-brand img {
+    max-height: 34px; }
 
 #faq .faq-container:nth-of-type(4n+1) .question {
   border-bottom: 4px solid #FFBC1A; }
@@ -7680,11 +7684,16 @@ section {
 
 footer.home-footer {
   box-shadow: -1px -1px 4px 0px rgba(0, 0, 0, 0.1); }
+  footer.home-footer .contact-info {
+    padding-top: 20px;
+    padding-bottom: 20px; }
 
 .checkbox-with-label input[type="checkbox"] {
   height: 1.5em; }
 
 @media (max-width: 992px) {
+  #top-nav .logos {
+    order: 0; }
   #page-header {
     padding-top: 0; }
     #page-header .container {
@@ -7707,5 +7716,7 @@ footer.home-footer {
           background: #05C6B4;
           color: #fff; }
   .navbar {
-    align-items: unset; } }
+    align-items: unset;
+    flex-direction: row;
+    justify-content: flex-start; } }
 

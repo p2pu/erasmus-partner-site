@@ -1,4 +1,22 @@
 <footer class="home-footer">
+    <div class="contact-info">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-sm-6 col-8 social">
+          <div class="content">
+            {% for link in site.data.footer.socials %}
+              <div class="social-link">
+                <a href="{{ link.url }}" title="{{ link.text }}">
+                  <i class="{{ link.icon_class }}" aria-hidden="true"></i>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="toc">
     <div class="container">
       <div class="col-12">

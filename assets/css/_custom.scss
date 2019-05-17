@@ -17,10 +17,8 @@ $p2pu-orange:           #FC7100;
 */
 
 body {
-  padding-top: 64px; /*navbar-height*/
+  padding-top: 60px; /*navbar-height*/
 }
-
-
 
 section {
   padding-top: $padding-md;
@@ -83,6 +81,20 @@ section {
 #top-nav {
   background-color: #fff;
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+
+  .logos {
+    order: 1;
+  }
+
+  .navbar-toggler {
+
+  }
+
+  .navbar-brand {
+    img {
+      max-height: 34px;
+    }
+  }
 }
 
 #faq {
@@ -130,8 +142,15 @@ section {
   }
 }
 
-footer.home-footer {
-  box-shadow: -1px -1px 4px 0px rgba(0, 0, 0, 0.1);
+footer {
+  &.home-footer {
+    box-shadow: -1px -1px 4px 0px rgba(0, 0, 0, 0.1);
+
+    .contact-info {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
 }
 
 .checkbox-with-label {
@@ -141,6 +160,12 @@ footer.home-footer {
 }
 
 @media (max-width: 992px) {
+  #top-nav {
+    .logos {
+      order: 0;
+    }
+  }
+
   #page-header {
     padding-top: 0;
 
@@ -181,5 +206,7 @@ footer.home-footer {
 
   .navbar {
     align-items: unset;
+    flex-direction: row;
+    justify-content: flex-start;
   }
 }
