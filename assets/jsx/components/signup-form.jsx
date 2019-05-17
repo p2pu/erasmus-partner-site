@@ -197,7 +197,7 @@ export default class SignupForm extends React.Component {
               />
               <p>{t`Your number won't be shared with other participants.`}</p>
               <CheckboxWithLabel
-                label={t`Would you like to receive information about other learning opportunities in the future.`}
+                label={t`Would you like to receive information about other learning opportunities in the future?`}
                 value={communications_opt_in}
                 handleChange={this.onDataChange}
                 name={'communications_opt_in'}
