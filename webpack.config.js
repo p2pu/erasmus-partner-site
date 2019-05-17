@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const AssetsPlugin = require('assets-webpack-plugin');
@@ -6,6 +7,7 @@ module.exports = {
   mode: 'production',
   entry: {
     index: './assets/jsx/index.jsx',
+    style: './assets/css/base.scss',
   },
   module: {
     rules: [
@@ -53,6 +55,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /de/),
     new MiniCssExtractPlugin({
       filename: "[name].css",
     }),
