@@ -2,12 +2,22 @@
 ---
 <!DOCTYPE html>
 <html lang="en-GB">
-<head>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140453310-1"></script>
+    <script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-140453310-1');
+    </script>
+
     <title>P2PU Berlin</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+          rel="stylesheet">
     <meta name="description" content="P2PU conference in Kansas City 2018">
     <!-- font-awesome -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -17,7 +27,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
 
     {% for bundle in page.bundles %}
-      <link rel="stylesheet" href="{{site.baseurl}}{{site.data.bundles[bundle]['css']}}">
+    <link rel="stylesheet" href="{{site.baseurl}}{{site.data.bundles[bundle]['css']}}">
     {% endfor %}
 
 
@@ -25,9 +35,9 @@
     <link rel="icon" href="favicon.ico">
     <meta name="msapplication-TileColor" content="#B7D500">
     <meta name="theme-color" content="#FCFCFC">
-</head>
+  </head>
 
-<body data-spy="scroll" data-target="#navbarNavAltMarkup" data-offset="70">
+  <body data-spy="scroll" data-target="#navbarNavAltMarkup" data-offset="70">
 
     {% include navbar.html %}
 
@@ -45,18 +55,18 @@
     <!-- AOS -->
     <script src="{{site.baseurl}}/assets/js/aos.js"></script>
     <script>
-      AOS.init({
-      });
+AOS.init({
+});
     </script>
 
     <!-- Smooth Scroll -->
     <script src="{{site.baseurl}}/assets/js/smooth-scroll.polyfills.min.js"></script>
     <script>
-      var scroll = new SmoothScroll('a[href*="#"]', { offset: 60 });
+var scroll = new SmoothScroll('a[href*="#"]', { offset: 60 });
     </script>
 
     {% for bundle in page.bundles %}
-      <script src="{{site.baseurl}}{{site.data.bundles[bundle]['js']}}"></script>
+    <script src="{{site.baseurl}}{{site.data.bundles[bundle]['js']}}"></script>
     {% endfor %}
 
 
