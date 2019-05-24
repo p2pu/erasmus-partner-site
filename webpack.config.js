@@ -20,12 +20,8 @@ module.exports = {
             plugins: [
               [ 
                 'ttag', {
-                  extract: { 
-                    output: 'i18n/poly.pot'
-                  },
-                  resolve: { 
-                    translations: `i18n/de.po`,
-                  },
+                  extract: { output: 'i18n/poly.pot' },
+                  resolve: { translations: `i18n/de.po` },
                   numberedExpressions: false,
                 },
               ],
@@ -71,5 +67,5 @@ module.exports = {
     path: path.resolve(__dirname, 'assets/dist'),
     filename: '[name].js',
     publicPath: '/assets/dist/',
-  }
-}
+  },
+};

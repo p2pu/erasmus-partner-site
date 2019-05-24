@@ -1,5 +1,6 @@
 {
   "name": "zlb",
+  "sideEffects": false,
   "version": "1.0.0",
   "description": "Unless indicated otherwise, all content is licensed CC-BY-SA and all code is licensed under the MIT license",
   "main": "index.js",
@@ -16,7 +17,7 @@
     "jsonp": "^0.2.1",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
-    "p2pu-input-fields": "^0.5.22",
+    "p2pu-input-fields": "^0.5.24",
     "p2pu-search-cards": "^0.13.5",
     "p2pu-theme": "^1.1.3",
     "rc-time-picker": "^3.6.4",
@@ -33,13 +34,15 @@
     "assets-webpack-plugin": "^3.9.10",
     "mini-css-extract-plugin": "^0.6.0",
     "promise-polyfill": "^8.1.0",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.1",
     "whatwg-fetch": "^3.0.0"
   },
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --optimize-minimize",
     "build:dev": "webpack --mode development",
-    "watch": "webpack --mode development --watch"
+    "watch": "webpack --mode development --watch",
+    "profile": "webpack --mode production --optimize-minimize --config webpack.config.profile.js"
   },
   "repository": {
     "type": "git",
