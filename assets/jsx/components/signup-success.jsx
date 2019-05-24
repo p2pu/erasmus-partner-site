@@ -8,7 +8,7 @@ const SignupSuccess = () => (
         <p>{t`Thank you for signing up. We've sent you an email introducing you to your facilitator and we'll send you a reminder two days before each meeting.`}</p>
       </div>
       <div className="col-md-12">
-        <img src="/assets/img/library-rock.gif"/>
+        <img src="assets/img/library-rock.gif"/>
       </div>
     </div>
   </div>
