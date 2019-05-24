@@ -1,6 +1,5 @@
 import React from 'react';
 import {t} from 'ttag';
-import {day, date, time} from '../utils/i18n';
 
 const SignupSuccess = () => (
   <div className="container signup-success">
