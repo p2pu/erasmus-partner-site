@@ -184,7 +184,7 @@ msgstr ""
 msgid "Sunday"
 msgstr ""
 
-#: assets/jsx/components/signup-success.jsx:9
+#: assets/jsx/components/signup-success.jsx:8
 msgid ""
 "Thank you for signing up. We've sent you an email introducing you to your "
 "facilitator and we'll send you a reminder two days before each meeting."
