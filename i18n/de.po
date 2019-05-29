@@ -10,89 +10,89 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: assets/jsx/components/signup-form.jsx:7
+#: assets/jsx/components/signup-form.jsx:11
 msgid "To increase my employability"
 msgstr "Um meine Chancen auf dem Arbeitsmarkt zu erhöhen. "
 
-#: assets/jsx/components/signup-form.jsx:8
+#: assets/jsx/components/signup-form.jsx:12
 msgid "Professional development for my current job"
 msgstr "Berufliche Weiterentwicklung in meinem aktuellen Job"
 
-#: assets/jsx/components/signup-form.jsx:9
+#: assets/jsx/components/signup-form.jsx:13
 msgid "To accompany other educational programs"
 msgstr "Als Unterstützung/Begleitung für andere Fort- und Weiterbildungen"
 
-#: assets/jsx/components/signup-form.jsx:10
+#: assets/jsx/components/signup-form.jsx:14
 msgid "Personal interest"
 msgstr "Persönliches Interesse"
 
-#: assets/jsx/components/signup-form.jsx:11
+#: assets/jsx/components/signup-form.jsx:15
 msgid "Social reasons"
 msgstr "Ich möchte gern mit anderen Menschen zusammenkommen."
 
-#: assets/jsx/components/signup-form.jsx:12
+#: assets/jsx/components/signup-form.jsx:16
 msgid "For fun / to try something new"
 msgstr "Aus Spaß / Um etwas Neues auszuprobieren"
 
-#: assets/jsx/components/signup-form.jsx:13
+#: assets/jsx/components/signup-form.jsx:17
 msgid "Other"
 msgstr "Andere Ziele"
 
-#: assets/jsx/components/signup-form.jsx:17
+#: assets/jsx/components/signup-form.jsx:21
 msgid "Both"
 msgstr "Ja, beides"
 
-#: assets/jsx/components/signup-form.jsx:18
+#: assets/jsx/components/signup-form.jsx:22
 msgid "Just a laptop"
 msgstr "Nur ein Laptop"
 
-#: assets/jsx/components/signup-form.jsx:19
+#: assets/jsx/components/signup-form.jsx:23
 msgid "Just headphones"
 msgstr "Nur Kopfhörer"
 
-#: assets/jsx/components/signup-form.jsx:20
+#: assets/jsx/components/signup-form.jsx:24
 msgid "Neither"
 msgstr "Keines von beiden"
 
-#: assets/jsx/components/signup-form.jsx:24
+#: assets/jsx/components/signup-form.jsx:28
 msgid "Can't do"
 msgstr "Eher unsicher; ich habe keinerlei oder kaum Erfahrungen."
 
-#: assets/jsx/components/signup-form.jsx:25
+#: assets/jsx/components/signup-form.jsx:29
 msgid "Need help doing"
 msgstr "Ich brauche auf jeden Fall noch Hilfe."
 
-#: assets/jsx/components/signup-form.jsx:26
+#: assets/jsx/components/signup-form.jsx:30
 msgid "Can do with difficulty"
 msgstr "Ich kann damit umgehen, habe aber noch Schwierigkeiten."
 
-#: assets/jsx/components/signup-form.jsx:27
+#: assets/jsx/components/signup-form.jsx:31
 msgid "Can do"
 msgstr "Ich kriege das hin. "
 
-#: assets/jsx/components/signup-form.jsx:28
+#: assets/jsx/components/signup-form.jsx:32
 msgid "Expert (can teach others)"
 msgstr "Ich bin sehr sicher und kann auch anderen etwas beibringen."
 
-#: assets/jsx/components/signup-form.jsx:71
+#: assets/jsx/components/signup-form.jsx:134
 msgid "Name"
 msgstr "Name"
 
-#: assets/jsx/components/signup-form.jsx:80
+#: assets/jsx/components/signup-form.jsx:143
 msgid "Email address"
 msgstr "E-Mail-Adresse"
 
-#: assets/jsx/components/signup-form.jsx:89
+#: assets/jsx/components/signup-form.jsx:152
 msgid "What is your goal for taking this learning circle?"
 msgstr "Welches Ziel verfolgst du mit der Teilnahme an diesem Lernteam?"
 
-#: assets/jsx/components/signup-form.jsx:94
-#: assets/jsx/components/signup-form.jsx:114
-#: assets/jsx/components/signup-form.jsx:124
+#: assets/jsx/components/signup-form.jsx:158
+#: assets/jsx/components/signup-form.jsx:178
+#: assets/jsx/components/signup-form.jsx:188
 msgid "Select one of the following"
 msgstr "Wähle eine Option"
 
-#: assets/jsx/components/signup-form.jsx:98
+#: assets/jsx/components/signup-form.jsx:162
 msgid ""
 "A successful study group requires the support of all of its members. How "
 "will you help your peers achieve their goals?"
@@ -100,17 +100,17 @@ msgstr ""
 "Eine erfolgreiche Lerngruppe braucht die Unterstützung aller ihrer "
 "Mitglieder. Wie kannst du deinen Peers helfen, ihre Ziele zu erreichen?"
 
-#: assets/jsx/components/signup-form.jsx:107
+#: assets/jsx/components/signup-form.jsx:171
 msgid ""
 "Can you bring a laptop and headphones to the learning circle each week?"
 msgstr ""
 "Kannst du jede Woche ein Laptop und Kopfhörer zum Lernteam mitbringen?"
 
-#: assets/jsx/components/signup-form.jsx:117
+#: assets/jsx/components/signup-form.jsx:181
 msgid "How comfortable are you using the internet?"
 msgstr "Wie sicher fühlst du dich in der Nutzung des Internets?"
 
-#: assets/jsx/components/signup-form.jsx:127
+#: assets/jsx/components/signup-form.jsx:191
 msgid ""
 "If you’d like to receive weekly text messages reminding you of upcoming "
 "learning circle meetings, put your phone number here."
@@ -119,28 +119,43 @@ msgstr ""
 "bevorstehende Lernteam-Treffen erinnern, gib hier bitte deine "
 "Mobilfunknummer ein."
 
-#: assets/jsx/components/signup-form.jsx:135
+#: assets/jsx/components/signup-form.jsx:199
 msgid "Your number won't be shared with other participants."
 msgstr "Deine Nummer wird nicht an andere Teilnehmer*innen weitergegeben."
 
-#: assets/jsx/components/signup-form.jsx:136
+#: assets/jsx/components/signup-form.jsx:202
+msgid ""
+"Would you like to receive information about other learning opportunities in "
+"the future?"
+msgstr ""
+"Möchtest du in Zukunft Informationen über andere Lernmöglichkeiten erhalten?"
+
+#: assets/jsx/components/signup-form.jsx:210
+msgid "Sign up"
+msgstr "Anmeldung"
+
+#: assets/jsx/components/signup-form.jsx:213
 msgid "Back to search"
 msgstr "Zurück zur Suche"
 
-#: assets/jsx/components/learning-circle-signup.jsx:20
+#: assets/jsx/components/signup-form.jsx:217
+msgid "Submitting..."
+msgstr "Senden..."
+
+#: assets/jsx/components/learning-circle-signup.jsx:32
 msgid "Sign up for ${ course.title }"
 msgstr "Anmeldung für ${ course.title }"
 
-#: assets/jsx/components/learning-circle-signup.jsx:30
+#: assets/jsx/components/learning-circle-signup.jsx:42
 msgid "Facilitated by ${ learningCircle.facilitator }"
 msgstr "Moderiert von ${ learningCircle.facilitator }"
 
-#: assets/jsx/components/learning-circle-signup.jsx:31
+#: assets/jsx/components/learning-circle-signup.jsx:43
 msgid "Course materials provided by ${ courseProviderLink }"
 msgstr ""
 "Kursmaterialien werden zur Verfügung gestellt von ${ courseProviderLink }"
 
-#: assets/jsx/components/learning-circle-signup.jsx:34
+#: assets/jsx/components/learning-circle-signup.jsx:46
 msgid ""
 "This learning circle meets ${ meetingDay } from ${ startTime } to ${ endTime"
 " } ${ learningCircle.time_zone }, ${ startDate }."
@@ -148,7 +163,7 @@ msgstr ""
 "Dieses Lernteam trifft sich ${ meetingDay } von ${ startTime } bis ${ "
 "endTime } ${ learningCircle.time_zone }, ab ${ startDate }."
 
-#: assets/jsx/components/learning-circle-signup.jsx:37
+#: assets/jsx/components/learning-circle-signup.jsx:49
 msgid ""
 "This learning circle meets every ${ meetingDay } from ${ startTime } to ${ "
 "endTime } ${ learningCircle.time_zone } starting ${ startDate } for ${ "
@@ -158,7 +173,7 @@ msgstr ""
 "endTime } ${ learningCircle.time_zone }, beginnend ${ startDate } für ${ "
 "learningCircle.weeks } Wochen."
 
-#: assets/jsx/components/learning-circle-signup.jsx:39
+#: assets/jsx/components/learning-circle-signup.jsx:51
 msgid "At ${ venueLink }, ${ learningCircle.venue_address }"
 msgstr "An folgendem Ort: ${ venueLink }, ${ learningCircle.venue_address }"
 
@@ -189,3 +204,12 @@ msgstr "Samstag"
 #: assets/jsx/utils/i18n.js:10
 msgid "Sunday"
 msgstr "Sonnabend"
+
+#: assets/jsx/components/signup-success.jsx:8
+msgid ""
+"Thank you for signing up. We've sent you an email introducing you to your "
+"facilitator and we'll send you a reminder two days before each meeting."
+msgstr ""
+"Danke für die Anmeldung. Wir haben dir eine E-Mail gesendet, in der dir "
+"dein*e Moderator*in vorgestellt wird, und wir senden dir zwei Tage vor jedem"
+" Treffen eine Erinnerung."
