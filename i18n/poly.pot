@@ -156,12 +156,6 @@ msgstr ""
 msgid "At ${ venueLink }, ${ learningCircle.venue_address }"
 msgstr ""
 
-#: assets/jsx/components/signup-success.jsx:8
-msgid ""
-"Thank you for signing up. We've sent you an email introducing you to your "
-"facilitator and we'll send you a reminder two days before each meeting."
-msgstr ""
-
 #: assets/jsx/utils/i18n.js:4
 msgid "Monday"
 msgstr ""
@@ -188,4 +182,10 @@ msgstr ""
 
 #: assets/jsx/utils/i18n.js:10
 msgid "Sunday"
+msgstr ""
+
+#: assets/jsx/components/signup-success.jsx:8
+msgid ""
+"Thank you for signing up. We've sent you an email introducing you to your "
+"facilitator and we'll send you a reminder two days before each meeting."
 msgstr ""

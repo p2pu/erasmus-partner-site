@@ -22,6 +22,11 @@ export function date(date_){
   return date_;
 }
 
+/* takes time formatted as hh:mm:ss and outputs it without seconds in the locale format */
 export function time(time_){
-  return time_;
+  let [h,m,s] = time_.split(':');
+  let now = new Date();
+  now.setHours(h);
+  now.setMinutes(m);
+  return now.toLocaleTimeString('default', {hour: 'numeric', minute:'2-digit'});
 }
