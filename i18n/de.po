@@ -76,7 +76,7 @@ msgstr "Ich bin sehr sicher und kann auch anderen etwas beibringen."
 
 #: assets/jsx/components/signup-form.jsx:134
 msgid "Name"
-msgstr "Name"
+msgstr "Vor- und Nachname"
 
 #: assets/jsx/components/signup-form.jsx:143
 msgid "Email address"
@@ -84,13 +84,13 @@ msgstr "E-Mail-Adresse"
 
 #: assets/jsx/components/signup-form.jsx:152
 msgid "What is your goal for taking this learning circle?"
-msgstr "Welches Ziel verfolgst du mit der Teilnahme an diesem Lernteam?"
+msgstr "Welches Ziel verfolgen Sie mit der Teilnahme an diesem Lernteam?"
 
 #: assets/jsx/components/signup-form.jsx:158
 #: assets/jsx/components/signup-form.jsx:178
 #: assets/jsx/components/signup-form.jsx:188
 msgid "Select one of the following"
-msgstr "Wähle eine Option"
+msgstr "Wählen Sie eine Option"
 
 #: assets/jsx/components/signup-form.jsx:162
 msgid ""
@@ -98,37 +98,38 @@ msgid ""
 "will you help your peers achieve their goals?"
 msgstr ""
 "Eine erfolgreiche Lerngruppe braucht die Unterstützung aller ihrer "
-"Mitglieder. Wie kannst du deinen Peers helfen, ihre Ziele zu erreichen?"
+"Mitglieder. Wie können Sie Ihren Peers (Mitlernenden) helfen, ihre Ziele zu "
+"erreichen?"
 
 #: assets/jsx/components/signup-form.jsx:171
 msgid ""
 "Can you bring a laptop and headphones to the learning circle each week?"
 msgstr ""
-"Kannst du jede Woche ein Laptop und Kopfhörer zum Lernteam mitbringen?"
+"Können Sie jede Woche ein Laptop und Kopfhörer zum Lernteam mitbringen?"
 
 #: assets/jsx/components/signup-form.jsx:181
 msgid "How comfortable are you using the internet?"
-msgstr "Wie sicher fühlst du dich in der Nutzung des Internets?"
+msgstr "Wie sicher fühlen Sie sich in der Nutzung des Internets?"
 
 #: assets/jsx/components/signup-form.jsx:191
 msgid ""
 "If you’d like to receive weekly text messages reminding you of upcoming "
 "learning circle meetings, put your phone number here."
 msgstr ""
-"Wenn du wöchentlich Kurzmitteilungen erhalten möchtest, die dich an "
-"bevorstehende Lernteam-Treffen erinnern, gib hier bitte deine "
+"Wenn Sie wöchentlich Kurzmitteilungen erhalten möchten, die Sie an "
+"bevorstehende Lernteam-Treffen erinnern, geben Sie hier bitte Ihre "
 "Mobilfunknummer ein."
 
 #: assets/jsx/components/signup-form.jsx:199
 msgid "Your number won't be shared with other participants."
-msgstr "Deine Nummer wird nicht an andere Teilnehmer*innen weitergegeben."
+msgstr "Ihre Nummer wird nicht an andere Teilnehmer*innen weitergegeben."
 
 #: assets/jsx/components/signup-form.jsx:202
 msgid ""
 "Would you like to receive information about other learning opportunities in "
 "the future?"
 msgstr ""
-"Möchtest du in Zukunft Informationen über andere Lernmöglichkeiten erhalten?"
+"Möchten Sie in Zukunft Informationen über andere Lernmöglichkeiten erhalten?"
 
 #: assets/jsx/components/signup-form.jsx:210
 msgid "Sign up"
@@ -210,6 +211,6 @@ msgid ""
 "Thank you for signing up. We've sent you an email introducing you to your "
 "facilitator and we'll send you a reminder two days before each meeting."
 msgstr ""
-"Danke für die Anmeldung. Wir haben dir eine E-Mail gesendet, in der dir "
-"dein*e Moderator*in vorgestellt wird, und wir senden dir zwei Tage vor jedem"
-" Treffen eine Erinnerung."
+"Danke für die Anmeldung. Wir haben Ihnen eine E-Mail gesendet, in der Ihnen "
+"Ihr*e Moderator*in vorgestellt wird, und wir senden Ihnen zwei Tage vor "
+"jedem Treffen eine Erinnerung."
