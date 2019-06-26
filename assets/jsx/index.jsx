@@ -44,6 +44,7 @@ class App extends React.Component {
           <Search
             searchSubject={'learningCircles'}
             initialState={{city: 'Berlin'}}
+            locale="de-DE"
             onSelectResult={this.handleLearningCircleSelection}
             Browse={BrowseLearningCircles}
           />
