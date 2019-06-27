@@ -21,7 +21,7 @@ Die Dienstleistungen sind nicht für Personen unter 13 Jahren gedacht. Wenn du u
 
 ## 1. Datenschutz.
 
-1. Ihre Privatsphäre ist uns wichtig. Bitte lesen Sie unsere Datenschutzerklärung (verfügbar [im englischen Original] unter https://p2pu.org/en/privacy/ [und in deutscher Übersetzung unter https://berlin.p2pu.org/privat]) sorgfältig durch, um Einzelheiten zur Erfassung, Verwendung und Offenlegung Ihrer persönlichen Daten zu erfahren. Unsere Datenschutzerklärung wird hiermit durch Bezugnahme in diese Nutzungsbedingungen aufgenommen.
+1. Ihre Privatsphäre ist uns wichtig. Bitte lesen Sie unsere Datenschutzerklärung verfügbar im englischen Original unter [https://www.p2pu.org/en/privacy](https://www.p2pu.org/en/privacy)/ und in deutscher Übersetzung unter [https://berlin.p2pu.org/privacy/](https://berlin.p2pu.org/privacy/) sorgfältig durch, um Einzelheiten zur Erfassung, Verwendung und Offenlegung Ihrer persönlichen Daten zu erfahren. Unsere Datenschutzerklärung wird hiermit durch Bezugnahme in diese Nutzungsbedingungen aufgenommen.
 
 ## 2. Marken.
 
