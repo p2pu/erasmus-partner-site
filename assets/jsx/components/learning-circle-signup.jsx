@@ -43,10 +43,10 @@ class LearningCircleSignup extends Component {
             <p>{jt`Course materials provided by ${courseProviderLink}`}</p>
             <p>
               {learningCircle.weeks <= 1 &&
-                  jt`This learning circle meets ${meetingDay} from ${startTime} to ${endTime} ${learningCircle.time_zone}, ${startDate}.`
+                  jt`This learning circle meets ${meetingDay} from ${startTime} to ${endTime} (${learningCircle.time_zone}), ${startDate}.`
               }
               {learningCircle.weeks > 1 &&
-                  jt`This learning circle meets every ${meetingDay} from ${startTime} to ${endTime} ${learningCircle.time_zone} starting ${startDate} for ${learningCircle.weeks} weeks.`}
+                  jt`This learning circle meets every ${meetingDay} from ${startTime} to ${endTime} (${learningCircle.time_zone}) starting ${startDate} for ${learningCircle.weeks} weeks.`}
                 </p>
                 <p>{jt`At ${venueLink}, ${learningCircle.venue_address}`}</p>
           </div>

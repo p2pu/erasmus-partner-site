@@ -3,35 +3,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: assets/jsx/components/learning-circle-signup.jsx:32
-msgid "Sign up for ${ course.title }"
-msgstr ""
-
-#: assets/jsx/components/learning-circle-signup.jsx:42
-msgid "Facilitated by ${ learningCircle.facilitator }"
-msgstr ""
-
-#: assets/jsx/components/learning-circle-signup.jsx:43
-msgid "Course materials provided by ${ courseProviderLink }"
-msgstr ""
-
-#: assets/jsx/components/learning-circle-signup.jsx:46
-msgid ""
-"This learning circle meets ${ meetingDay } from ${ startTime } to ${ "
-"endTime } ${ learningCircle.time_zone }, ${ startDate }."
-msgstr ""
-
-#: assets/jsx/components/learning-circle-signup.jsx:49
-msgid ""
-"This learning circle meets every ${ meetingDay } from ${ startTime } to ${ "
-"endTime } ${ learningCircle.time_zone } starting ${ startDate } for ${ "
-"learningCircle.weeks } weeks."
-msgstr ""
-
-#: assets/jsx/components/learning-circle-signup.jsx:51
-msgid "At ${ venueLink }, ${ learningCircle.venue_address }"
-msgstr ""
-
 #: assets/jsx/components/signup-form.jsx:11
 msgid "To increase my employability"
 msgstr ""
@@ -154,6 +125,35 @@ msgstr ""
 
 #: assets/jsx/components/signup-form.jsx:217
 msgid "Submitting..."
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:32
+msgid "Sign up for ${ course.title }"
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:42
+msgid "Facilitated by ${ learningCircle.facilitator }"
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:43
+msgid "Course materials provided by ${ courseProviderLink }"
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:46
+msgid ""
+"This learning circle meets ${ meetingDay } from ${ startTime } to ${ "
+"endTime } (${ learningCircle.time_zone }), ${ startDate }."
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:49
+msgid ""
+"This learning circle meets every ${ meetingDay } from ${ startTime } to ${ "
+"endTime } (${ learningCircle.time_zone }) starting ${ startDate } for ${ "
+"learningCircle.weeks } weeks."
+msgstr ""
+
+#: assets/jsx/components/learning-circle-signup.jsx:51
+msgid "At ${ venueLink }, ${ learningCircle.venue_address }"
 msgstr ""
 
 #: assets/jsx/utils/i18n.js:4

@@ -1,10 +1,10 @@
 # Translators:
-# Dirk Uys <dirkcuys@gmail.com>, 2019
 # Pranke <Juliana.Pranke@zlb.de>, 2019
+# Dirk Uys <dirkcuys@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Pranke <Juliana.Pranke@zlb.de>, 2019\n"
+"Last-Translator: Dirk Uys <dirkcuys@gmail.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/p2pu/teams/98473/de/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: de\n"
@@ -159,20 +159,20 @@ msgstr ""
 #: assets/jsx/components/learning-circle-signup.jsx:46
 msgid ""
 "This learning circle meets ${ meetingDay } from ${ startTime } to ${ endTime"
-" } ${ learningCircle.time_zone }, ${ startDate }."
+" } (${ learningCircle.time_zone }), ${ startDate }."
 msgstr ""
 "Dieses Lernteam trifft sich ${ meetingDay } von ${ startTime } bis ${ "
-"endTime } ${ learningCircle.time_zone }, ab ${ startDate }."
+"endTime } Uhr (${ learningCircle.time_zone }), ab ${ startDate }."
 
 #: assets/jsx/components/learning-circle-signup.jsx:49
 msgid ""
 "This learning circle meets every ${ meetingDay } from ${ startTime } to ${ "
-"endTime } ${ learningCircle.time_zone } starting ${ startDate } for ${ "
+"endTime } (${ learningCircle.time_zone }) starting ${ startDate } for ${ "
 "learningCircle.weeks } weeks."
 msgstr ""
 "Dieses Lernteam trifft sich jeden ${ meetingDay } von ${ startTime } bis ${ "
-"endTime } ${ learningCircle.time_zone }, beginnend ${ startDate } für ${ "
-"learningCircle.weeks } Wochen."
+"endTime } Uhr (${ learningCircle.time_zone }), beginnend ${ startDate } für "
+"${ learningCircle.weeks } Wochen."
 
 #: assets/jsx/components/learning-circle-signup.jsx:51
 msgid "At ${ venueLink }, ${ learningCircle.venue_address }"
