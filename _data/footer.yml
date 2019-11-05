@@ -1,10 +1,10 @@
 socials:
   - text: Instagram
-    url: https://www.instagram.com/zlb_berlin/
+    url: https://www.instagram.com/p2puniversity/
     icon_class: fa fa-instagram
   - text: Twitter
-    url: https://twitter.com/zlb_Berlin
+    url: https://twitter.com/p2pu
     icon_class: fa fa-twitter
   - text: Facebook
-    url: https://www.facebook.com/zentralundlandesbibliothekberlin
+    url: https://www.facebook.com/P2PUniversity
     icon_class: fa fa-facebook
