@@ -128,6 +128,7 @@ msgid "Submitting..."
 msgstr ""
 
 #: assets/jsx/components/learning-circle-signup.jsx:32
+#, javascript-format
 msgid "Sign up for ${ course.title }"
 msgstr ""
 
@@ -136,16 +137,19 @@ msgid "Facilitated by ${ learningCircle.facilitator }"
 msgstr ""
 
 #: assets/jsx/components/learning-circle-signup.jsx:43
+#, javascript-format
 msgid "Course materials provided by ${ courseProviderLink }"
 msgstr ""
 
 #: assets/jsx/components/learning-circle-signup.jsx:46
+#, javascript-format
 msgid ""
 "This learning circle meets ${ meetingDay } from ${ startTime } to ${ "
 "endTime } (${ learningCircle.time_zone }), ${ startDate }."
 msgstr ""
 
 #: assets/jsx/components/learning-circle-signup.jsx:49
+#, javascript-format
 msgid ""
 "This learning circle meets every ${ meetingDay } from ${ startTime } to ${ "
 "endTime } (${ learningCircle.time_zone }) starting ${ startDate } for ${ "

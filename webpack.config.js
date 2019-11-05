@@ -7,6 +7,7 @@ module.exports = {
   mode: 'production',
   entry: {
     index: './assets/jsx/index.jsx',
+    courses: './assets/jsx/courses.jsx',
     style: './assets/css/base.scss',
   },
   module: {
