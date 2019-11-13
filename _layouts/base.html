@@ -30,7 +30,11 @@ gtag('config', 'UA-140453310-1');
     <link rel="stylesheet" href="{{site.baseurl}}{{site.data.bundles[bundle]['css']}}">
     {% endfor %}
 
-
+    {% if page.css %}
+        {% for css in page.css %}
+            <link rel="stylesheet" href="{{ site.baseurl }}{{ css }}" />
+        {% endfor %}
+    {% endif %}
 
     <link rel="icon" href="{{site.baseurl}}/favicon.ico">
     <meta name="msapplication-TileColor" content="#B7D500">
