@@ -56,7 +56,11 @@ bundles:
             <a href="{{ site.baseurl}}{{resource.url }}">
             {% endif %}
             <div class="image">
+              {% if resources.image contains 'http' %}
               <img src="{{ resource.image }}" />
+              {% else %}
+              <img src="{{site.baseurl}}{{ resource.image }}" />
+              {% endif %}
               {% if resource.tag %}
               <div class="overlay">
                 <div class="topic-type minicaps">{{ resource.tag }}</div>
