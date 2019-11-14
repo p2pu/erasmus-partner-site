@@ -28,8 +28,21 @@ section {
 #page-header {
   padding-top: 3%;
 
+  .header-text {
+    font-size: 3.5vw;
+    font-weight: bolder;
+    text-align: center;
+
+    > .word {
+      padding-left: 20px;
+      padding-right: 20px;
+      color: $p2pu-blue;
+      opacity: 0.3;
+    }
+  }
+
+
   #header-img {
-    position: relative;
 
     img {
       max-height: 66vh;
@@ -37,25 +50,6 @@ section {
       object-fit: cover;
     }
 
-    .header-text {
-      position: absolute;
-      font-size: 12.5vw;
-      font-weight: bolder;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 100%;
-      top: 0;
-      left: 0;
-      right: 0;
-
-      > .word {
-        padding-left: 20px;
-        padding-right: 20px;
-        color: $p2pu-blue;
-        opacity: 0.3;
-      }
-    }
 
   }
 

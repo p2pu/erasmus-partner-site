@@ -1,0 +1,35 @@
+---
+layout: base
+---
+<header id="page-header" class="bg-white">
+  <div class="header-text">
+    <h1>{{ page.header_text }}</h1>
+  </div>
+
+  <div id="header-img">
+    <div class="container">
+      <img src="{{site.baseurl}}/assets/img/landing-banner.jpg" alt="" class="img-fluid">
+    </div>
+  </div>
+
+  <div id="intro-section" class="container">
+    <div class="intro-text" data-aos="slide-up">
+      <div>
+        {{ page.hero | markdownify }}
+      </div>
+    </div>
+    {% if page.image_attribution %}{{ page.image_attribution | markdownify }}{% endif %}
+  </div>
+</header>
+
+<section id="learning-circles">
+  <div class="container" data-aos="slide-up">
+    <div class="row">
+      <div class="col-12 mb-3">
+        <h1>{{ page.search_title }}</h1>
+      </div>
+    </div>
+    <div id="learning-circle-search" />
+  </div>
+</section>
+<!-- -->
