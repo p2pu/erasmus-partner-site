@@ -8,8 +8,8 @@ bundles:
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>About</h2>
-        <p>Learning circles were started by Peer 2 Peer University (P2PU) and Chicago Public Library in 2015. Since then, the model of peer learning in libraries has spread to libraries and community centers across North America, East Africa, and parts of Europe. This year, ZLB is proud to partner with P2PU to bring learning circles to Berlin.</p>
+        <h2>{{page.title}}</h2>
+        {{ page.about|markdownify }}
       </div>
     </div>
   </div>
@@ -19,10 +19,10 @@ bundles:
   <div class="container">
     <div class="row">
       <div class="col-12" data-aos="slide-up">
-        <h2>Frequently asked questions</h2>
+        <h2>{{page.faq_title}}</h2>
 
         <div class="faq-questions">
-          {% for faq in site.data.faq %}
+          {% for faq in page.faq %}
             <div class="faq-container mb-4" data-aos="fade">
               <div class="question">
                 <h3>{{faq.q}}</h3>

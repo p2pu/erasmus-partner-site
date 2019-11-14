@@ -1,3 +1,9 @@
+---
+title: About
+about: |
+  Learning circles were started by Peer 2 Peer University (P2PU) and Chicago Public Library in 2015. Since then, the model of peer learning in libraries has spread to libraries and community centers across North America, East Africa, and parts of Europe. This year, ZLB is proud to partner with P2PU to bring learning circles to Berlin.
+faq_title: Frequently asked questions
+faq:
 - q: What is a learning circle?
   a: |
         A learning circle is a group of people who meet to learn something together. Learning circles are:
@@ -28,3 +34,7 @@
 - q: Can anybody start and facilitate a learning circle?
   a: Yes! Learning circles are free to create, all you need is an account with P2PU. We have begun to create some German-language resources for facilitators, which you can view and contribute to here." (and then link to the German language section of the forum).
 
+layout: about
+bundles:
+- style
+---

@@ -1,24 +1,20 @@
 ---
-title: Facilitate
 layout: base
-bundles:
-- style
 ---
 
 <section id="facilitator-landing">
   <div class="row">
     <div class="col-12 col-lg-6">
       <div>
-        <h1 class="blue-text">Facilitate</h1>
+        <h1 class="blue-text">{{ page.title }}</h1>
       </div>
       <div class="welcome-text">
-        <p class="large">Learning circles are free, interest-driven study groups. Every learning circle has a facilitator. The facilitator does not have to be an expert in the subject, so with a little practice and training, anybody can facilitate.</p>
-        <p class="large">Whether you want to run a single learning circle or organize dozens across a library system, we are here to help. If you are new to Peer 2 Peer University, start by watching our introductory video.</p>
+        <p class="large">{{ page.welcome | markdownify}}</p>
       </div>
     </div>
     <div class="col-12 col-lg-6">
       <div class="media d-flex justify-content-center">
-        <img src="{{ site.baseurl }}/assets/images/organize/organize-header.jpg" alt="Organizers group photo" class="img-fluid">
+        <img src="{{ site.baseurl }}/assets/images/organize/organize-header.jpg" alt="" class="img-fluid">
       </div>
     </div>
   </div>
@@ -28,7 +24,7 @@ bundles:
   <div class="row">
     <div class="col-12">
       <div class="margin-sm">
-        <p class="large">Anybody can facilitate a learning circle. Learn more about what facilitator do by reviewing these resources.</p>
+        <p class="large">{{ page.tagline }}</p>
       </div>
     </div>
   </div>
@@ -39,7 +35,7 @@ bundles:
         <div class="col-12">
           <div class="category-title">
             <div class="step-title mb-4">
-              <h2>Facilitator Resources</h2>
+              <h2>{{ page.resources_title }}</h2>
             </div>
           </div>
         </div>
@@ -47,8 +43,7 @@ bundles:
 
       <div class="row resources">
 
-      {% for resource in site.data.facilitator_resources %}
-
+      {% for resource in page.resources %}
         <div class="resource-card organize col-12 col-md-6 col-lg-4 p-md-3">
           {% if resource.url contains 'http' %}
           <a href="{{ resource.url }}">
@@ -70,7 +65,6 @@ bundles:
             <div class="title">{{ resource.title }}</div>
           </a>
         </div>
-
       {% endfor %}
 
       </div>
