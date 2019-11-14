@@ -1,9 +1,9 @@
 topnav:
 - url: /
   title: Home
-- url: /about/
+- url: /about
   title: About
-- url: /facilitate/
+- url: /facilitate
   title: Facilitate
 
 org:
