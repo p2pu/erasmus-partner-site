@@ -3,3 +3,4 @@ _site
 .sass-cache/
 package-lock.json
 Gemfile.lock
+*.swp
