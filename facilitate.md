@@ -8,13 +8,13 @@ tagline: Anybody can facilitate a learning circle. Learn more about what facilit
 resources_title: Facilitator resources
 resources:
 - title: Getting started?
-  image: /assets/images/organize/p2pu-video.jpg
+  image: https://media.giphy.com/media/vcnOjlxG7jxrsBoxyT/giphy.gif
   url: https://www.p2pu.org/en/facilitate/
 - title: Course list
   image: /assets/img/courses.gif
   url: /courses/
 - title: Discourse community
-  image: /assets/images/organize/course-banner.jpg
+  image: /assets/img/discourse.png
   url: https://community.p2pu.org
   tag: forum
 - title: The broader P2PU community
