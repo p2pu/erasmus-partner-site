@@ -47,14 +47,16 @@ layout: base
         <div class="resource-card organize col-12 col-md-6 col-lg-4 p-md-3">
           {% if resource.url contains 'http' %}
           <a href="{{ resource.url }}">
-            {% else %}
+          {% else %}
             <a href="{{ site.baseurl}}{{resource.url }}">
-            {% endif %}
+          {% endif %}
             <div class="image">
-              {% if resources.image contains 'http' %}
-              <img src="{{ resource.image }}" />
+              {% if resource.image contains 'http' %}
+              <!-- boo -->
+                <img src="{{ resource.image }}" />
               {% else %}
-              <img src="{{site.baseurl}}{{ resource.image }}" />
+                <img src="{{site.baseurl}}{{ resource.image }}" />
+              <!-- o -->
               {% endif %}
               {% if resource.tag %}
               <div class="overlay">
