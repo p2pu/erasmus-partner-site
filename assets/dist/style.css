@@ -7615,30 +7615,25 @@ section {
   padding-bottom: 40px; }
 
 #page-header {
-  padding-top: 3%; }
+  position: relative;
+  color: #fff;
+  overflow: hidden; }
+  #page-header #header-img {
+    position: absolute;
+    filter: brightness(50%); }
   #page-header .header-text {
+    padding: 1em 0;
     font-size: 3.5vw;
     font-weight: bolder;
     text-align: center; }
-    #page-header .header-text > .word {
-      padding-left: 20px;
-      padding-right: 20px;
-      color: #05C6B4;
-      opacity: 0.3; }
-  #page-header #header-img img {
-    max-height: 66vh;
-    width: 100%;
-    object-fit: cover; }
   #page-header #intro-section {
-    position: relative; }
-    #page-header #intro-section .intro-text {
-      margin-left: 60px;
-      margin-right: 60px;
-      margin-top: -80px; }
-      #page-header #intro-section .intro-text > div {
-        padding: 40px;
-        background: #05C6B4;
-        color: #fff; }
+    padding-bottom: 1em; }
+    #page-header #intro-section .intro-text > div {
+      padding: 40px;
+      background: #05C6B4;
+      color: #fff; }
+    #page-header #intro-section .video {
+      width: 100%; }
 
 #top-nav {
   background-color: #fff;

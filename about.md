@@ -1,7 +1,7 @@
 ---
 title: About
 about: |
-  Learning circles were started by Peer 2 Peer University (P2PU) and Chicago Public Library in 2015. Since then, the model of peer learning in libraries has spread to libraries and community centers across North America, East Africa, and parts of Europe. This year, ZLB is proud to partner with P2PU to bring learning circles to Berlin.
+  Learning circles were started by Peer 2 Peer University (P2PU) and Chicago Public Library in 2015. Since then, the model of peer learning in libraries has spread to libraries and community centers across North America, East Africa, and parts of Europe. This year, ZLB is proud to partner with P2PU to bring learning circles to Hogwarts.
 faq_title: Frequently asked questions
 faq:
 - q: What is a learning circle?

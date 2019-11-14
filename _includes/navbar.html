@@ -12,9 +12,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="nav navbar-nav">
-      <a class="nav-item nav-link minicaps data-scroll" href="{{site.baseurl}}/">Home</a>
-      <a class="nav-item nav-link minicaps data-scroll" href="{{site.baseurl}}/about/">About</a>
-      <a class="nav-item nav-link minicaps data-scroll" href="{{site.baseurl}}/facilitate/">Facilitate</a>
+      {% for link in site.data.nav.topnav %}
+        <a class="nav-item nav-link minicaps data-scroll" href="{{site.baseurl}}{{link.url}}">{{link.title}}</a>
+      {% endfor %}
     </ul>
   </div>
 </nav>

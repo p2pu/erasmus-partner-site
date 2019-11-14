@@ -1,0 +1,12 @@
+topnav:
+- url: /
+  title: Home
+- url: about
+  title: About
+- url: facilitate
+  title: Facilitate
+
+org:
+    url: https://hog.warts/
+    logo_url: /assets/img/team-logo.png
+

@@ -1,7 +1,7 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="de-DE">
+<html lang="{{site.lang}}">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140453310-1"></script>
@@ -13,7 +13,7 @@ gtag('js', new Date());
 gtag('config', 'UA-140453310-1');
     </script>
 
-    <title>P2PU Berlin</title>
+    <title>{{site.title}}{% if page.title %} | {{page.title}}{% endif %}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
