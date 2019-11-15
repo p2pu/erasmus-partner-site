@@ -7,13 +7,13 @@ This template can also be used in cases where learning circles need to be contex
 ## Using the template
 
 To use the template, you should copy this repository and translate / update the following content:
-- [`_config.yml`](blob/gh-pages/_config.yml)
-- [`index.md`](blob/gh-pages/index.md)
-- [`about.md`](blob/gh-pages/about.md)
-- [`facilitate.md`](blob/gh-pages/facilitate.md)
-- [`courses.md`](blob/gh-pages/courses.md)
-- [`_data/nav.yml`](blob/gh-pages/_data/nav.yml)
-- [`_data/footer.yml`](blob/gh-pages/_data/footer.yml)
+- [`_config.yml`](_config.yml)
+- [`index.md`](index.md)
+- [`about.md`](about.md)
+- [`facilitate.md`](facilitate.md)
+- [`courses.md`](courses.md)
+- [`_data/nav.yml`](_data/nav.yml)
+- [`_data/footer.yml`](_data/footer.yml)
 - 
 
 ## License
