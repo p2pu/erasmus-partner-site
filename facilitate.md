@@ -12,7 +12,7 @@ resources:
   url: https://www.p2pu.org/en/facilitate/
 - title: Course list
   image: /assets/img/courses.gif
-  url: /courses/
+  url: /courses
 - title: Discourse community
   image: /assets/img/discourse.png
   url: https://community.p2pu.org
