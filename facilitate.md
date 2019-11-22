@@ -1,9 +1,11 @@
 ---
 title: Facilitate
-welcome: |
-  Learning circles are free, interest-driven study groups. Every learning circle has a facilitator. The facilitator does not have to be an expert in the subject, so with a little practice and training, anybody can facilitate.
+welcome: | (Partner name) is bringing learning circles to (city/country) in 2020! 
 
-  Whether you want to run a single learning circle or organize dozens across a library system, we are here to help. If you are new to Peer 2 Peer University, start by watching our introductory video.
+Learning circles are free, interest-driven study groups that are led by a facilitator. The facilitator does not have to be an expert in the subject, so with a little practice and training, anybody can facilitate.
+
+If you’re interested in participating, explore the resources below and contact us to get involved!
+
 tagline: Anybody can facilitate a learning circle. Learn more about what facilitator do by reviewing these resources.
 resources_title: Facilitator resources
 resources:
