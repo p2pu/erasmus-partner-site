@@ -14,7 +14,6 @@ To use the template, you should copy this repository and translate / update the 
 - [`courses.md`](courses.md)
 - [`_data/nav.yml`](_data/nav.yml)
 - [`_data/footer.yml`](_data/footer.yml)
-- 
 
 ## License
 

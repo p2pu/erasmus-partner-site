@@ -1,12 +1,11 @@
 ---
 title: Facilitate
-welcome: | (Partner name) is bringing learning circles to (city/country) in 2020! 
+welcome: |
+    (Partner name) is bringing learning circles to (city/country) in 2020! 
 
-Learning circles are free, interest-driven study groups that are led by a facilitator. The facilitator does not have to be an expert in the subject, so with a little practice and training, anybody can facilitate.
+    Learning circles are free, interest-driven study groups that are led by a facilitator. The facilitator does not have to be an expert in the subject, so with a little practice and training, anybody can facilitate.
 
-If you’re interested in participating, explore the resources below and contact us to get involved!
-
-tagline: Anybody can facilitate a learning circle. Learn more about what facilitator do by reviewing these resources.
+    If you’re interested in participating, explore the resources below and contact us to get involved!
 resources_title: Facilitator resources
 resources:
 - title: Courses for learning circles
