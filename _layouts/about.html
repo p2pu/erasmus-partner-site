@@ -23,6 +23,7 @@ bundles:
 
         <div class="faq-questions">
           {% for faq in page.faq %}
+            {% if faq.q != '' %}
             <div class="faq-container mb-4" data-aos="fade">
               <div class="question">
                 <h3>{{faq.q}}</h3>
@@ -31,6 +32,7 @@ bundles:
                 <p>{{faq.a | markdownify}}</p>
               </div>
             </div>
+            {% endif %}
           {% endfor %}
         </div>
 

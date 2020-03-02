@@ -1,21 +1,26 @@
 ---
-title: Facilitate
-welcome: |
-    (Partner name) is bringing learning circles to (city/country) in 2020! 
+title: Facilitare
+welcome: 'În 2020, Fundația Progress aduce Cercul de învățare în România!
 
-    Learning circles are free, interest-driven study groups that are led by a facilitator. The facilitator does not have to be an expert in the subject, so with a little practice and training, anybody can facilitate.
+  Cercul de învățare este o inițiativă care se axează pe grupuri de studiu care au
+  în comun dorința de a deprinde noi cunoștințe, acestea fiind ghidate de un facilitator,
+  iar experiența fiind una cu intrare liberă.
 
-    If you’re interested in participating, explore the resources below and contact us to get involved!
-resources_title: Facilitator resources
+  Persoana care va facilita activitatea grupurilor se va putea pregăti prin intermediul
+  atelierelor de practică și a trainingurilor, așadar nu este necesar ca aceasta să
+  fie expertă în temele prezentate în cadrul cercurilor de învățare.
+
+  Dacă ești interesat să te implici, parcurge resursele de mai jos și contactează-ne!'
+resources_title: Resurse pentru Facilitatori
 resources:
-- title: Courses for learning circles
+- title: Cursuri pentru Cercurile de învățare
   image: /assets/img/courses.gif
   url: /courses
-- title: Facilitator forum
+- title: Forumul Facilitatorilor
   image: /assets/img/discourse.png
   url: https://community.p2pu.org
   tag: forum
-- title: Other facilitator resources (in English)
+- title: Resurse suplimentare pentru Facilitatori (limba engleză)
   image: /assets/img/p2pu.jpeg
   url: https://www.p2pu.org/en/facilitate
 layout: facilitate

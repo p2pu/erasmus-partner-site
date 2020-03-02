@@ -1,20 +1,18 @@
 socials:
-  - text: Instagram
-    url: https://www.instagram.com/p2puniversity/
-    icon_class: fa fa-instagram
-  - text: Twitter
-    url: https://twitter.com/p2pu
-    icon_class: fa fa-twitter
-  - text: Facebook
-    url: https://www.facebook.com/P2PUniversity
-    icon_class: fa fa-facebook
-license: Unless otherwise noted, all the materials on this site are licensed under CC BY-SA 4.0.
-about_orgs: P2PU is a U.S. 501(c)3 registered in California.
-tos: 
-    title: Terms of Service
-    url: https://www.p2pu.org/en/terms/
-privacy: 
-    title: Privacy Policy
-    url: https://www.p2pu.org/en/privacy/
-
-
+- text: Instagram
+  url: https://www.instagram.com/p2puniversity/
+  icon_class: fa fa-instagram
+- text: Twitter
+  url: https://twitter.com/p2pu
+  icon_class: fa fa-twitter
+- text: Facebook
+  url: https://www.facebook.com/P2PUniversity
+  icon_class: fa fa-facebook
+license: 'Unless otherwise noted, all the materials on this site are licensed under CC BY-SA 4.0.'
+about_orgs: 'P2PU is a U.S. 501(c)3 registered in California.'
+tos:
+  title: Termeni și Servicii
+  url: https://www.p2pu.org/en/terms/
+privacy:
+  title: Politica de Confidențialitate
+  url: https://www.p2pu.org/en/privacy/
