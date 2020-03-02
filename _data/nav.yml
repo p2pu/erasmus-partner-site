@@ -1,10 +1,12 @@
 topnav:
 - url: /
-  title: Acasă/ Pagina Principală
+  title: Home
 - url: /about
-  title: Despre
+  title: About
 - url: /facilitate
-  title: Facilitare
+  title: Facilitate
+
 org:
-  url: www.progressfoundation.ro
-  logo_url: /assets/img/team-logo.png
+    url: https://hog.warts/
+    logo_url: /assets/img/team-logo.png
+
