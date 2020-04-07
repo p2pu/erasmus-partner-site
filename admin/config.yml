@@ -1,0 +1,74 @@
+backend:
+  name: github
+  repo: p2pu/erasmus-partner-site
+  branch: gh-pages # Branch to update (optional; defaults to master)
+media_folder: assets/img
+collections:
+- name: 'pages'
+  label: 'Pages'
+  editor:
+    preview: false
+  files:
+    - label: 'Navigation'
+      name: 'navigation'
+      file: '_data/nav.yml'
+      fields:
+        - label: 'Top navigation'
+          name: 'topnav'
+          widget: list
+          fields:
+            - { label: 'Link title', name: 'title', widget: 'string' }
+            - { label: 'Link URL', name: 'url', widget: 'string' }
+        - label: 'Organization link'
+          name: 'org'
+          widget: object
+          fields:
+            - { label: 'Organization URL', name: 'url', widget: 'string' }
+            - { label: 'Organization logo', name: 'logo_url', widget: 'image'}
+    - label: 'Landing page'
+      name: 'index'
+      file: 'index.md'
+      fields:
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Header', name: 'header_text', widget: 'string' }
+        - { label: 'Hero', name: 'hero', widget: 'markdown' }
+        - { label: 'Search title', name: 'search_title', widget: 'string' }
+        - { label: 'Image attribution', name: 'image_attribution', widget: 'markdown', required: false }
+    - label: 'About page'
+      name: 'about'
+      file: 'about.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string'}
+        - { label: 'About', name: 'about', widget: 'markdown'}
+        - { label: 'FAQ title', name: 'faq_title', widget: 'string'}
+        - label: 'FAQ' 
+          name: 'faq'
+          widget: 'list' 
+          fields: 
+          - { label: 'Question', name: 'q', widget: 'string' }
+          - { label: 'Answer', name: 'a', widget: 'markdown' }
+    - label: 'Facilitate page'
+      name: facilitate
+      file: facilitate.md
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Welcome message', name: 'welcome', widget: 'markdown' }
+        - { label: 'Title for resources', name: 'resources_title', widget: string }
+        - label: List of resources
+          name: resources
+          widget: list
+          fields:
+          - { label: 'Resource title', name: 'title', widget: 'string' }
+          - { label: 'Resource URL', name: 'url', widget: 'string' }
+          - { label: 'Resource image', name: 'image', widget: 'image' }
+    - label: 'Website footer'
+      name: footer
+      file: _data/footer.yml
+      fields:
+      - label: Social media links
+        name: socials
+        widget: list
+        fields:
+        - { label: 'Text', name: 'text', widget: 'string' }
+        - { label: 'URL', name: 'url' , widget: 'string'}
+        - { label: 'Fontawesome icon class', name: 'icon_class' , widget: 'string', required: false }
