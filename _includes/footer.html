@@ -1,8 +1,8 @@
 <footer class="home-footer">
-    <div class="contact-info">
+  <div class="contact-info">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-3 col-sm-6 col-8 social">
+      <div class="row links">
+        <div class="social">
           <div class="content">
             {% for link in site.data.footer.socials %}
               <div class="social-link">
@@ -12,6 +12,14 @@
               </div>
             {% endfor %}
           </div>
+        </div>
+        <div class="logos">
+          <a href="https://ec.europa.eu/programmes/erasmus-plus/node_en">
+            <img src="{{ site.baseurl }}/assets/img/erasmus-logo.svg" alt="Erasmus+ logo">
+          </a>
+          <a href="https://www.p2pu.org">
+            <img src="{{ site.baseurl }}/assets/img/lc-logo.png" alt="Learning circles logo">
+          </a>
         </div>
       </div>
     </div>
