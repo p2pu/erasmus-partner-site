@@ -1,5 +1,6 @@
 ---
 layout: index
+header: pattern_header.html
 header_text: P2PU & the Ministry of Magic
 header_video: https://www.youtube.com/embed/bQqmIS7WQa8
 hero: |

@@ -1,41 +1,16 @@
 ---
 layout: base
 ---
-<div id="header-img">
-  <img src="{{site.baseurl}}/assets/img/landing-banner.jpg" alt="" class="img-fluid">
-</div>
-
-<header id="page-header" class="hero">
-  <div id="intro-section" class="container">
+<div class="page-wrapper">
+  {% include {{page.header}} page=page %}
+  <section id="learning-circles" class="container">
     <div class="row">
-      <div class="col-12 col-lg-6 order-1 order-sm-2">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="{{page.header_video}}" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-12 col-lg-6 order-2 order-sm-1">
-        <div class="intro-text" >
-          <h1 class="text-white mb-4">{{ page.header_text }}</h1>
-          <div>{{ page.hero | markdownify }}</div>
-          {% if page.image_attribution %}
-          <div id="attribution" class="text-muted">
-            {{ page.image_attribution | markdownify }}
-          </div>
-          {% endif %}
-        </div>
+      <div class="col-12 mb-3">
+        <h1>{{ page.search_title }}</h1>
       </div>
     </div>
-  </div>
-
-</header>
-
-<section id="learning-circles" class="container">
-  <div class="row">
-    <div class="col-12 mb-3">
-      <h1>{{ page.search_title }}</h1>
-    </div>
-  </div>
-  <div id="learning-circle-search"></div>
-</section>
+    <div id="learning-circle-search"></div>
+  </section>
+</div>
 <!-- -->
 
