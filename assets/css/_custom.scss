@@ -36,70 +36,146 @@ section {
   }
 }
 
+.background-triangle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40vw;
+  z-index: 0;
+  -webkit-mask-image: url(../img/p2pu-bg-dots.svg);
+  mask-image: url(../img/p2pu-bg-dots.svg);
+  fill: $p2pu-yellow;
+}
+
+.background-triangle.background {
+  fill: transparentize($p2pu-yellow, 0.5);
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
 #page-header {
-  position: relative;
-  overflow: hidden;
-  margin-top: -200px;
+  &.hero-header {
+    position: relative;
+    overflow: hidden;
+    margin-top: -200px;
 
-  .order-1 {
-    order: 1;
-  }
-
-  .order-2 {
-    order: 2;
-  }
-
-  .embed-responsive {
-    border: 2px solid $white;
-    border-radius: 8px;
-  }
-
-  .header-text {
-    padding: 1em 0;
-    font-size: 3.5vw;
-    font-weight: bolder;
-    text-align: center;
-  }
-
-  #intro-section {
-    padding-bottom: 1em;
-
-    h1 {
-      min-height: 100px;
-      padding-right: 30px;
-      padding-left: 30px;
-      font-size: calc(24px + 1vw);
-      line-height: 1.2;
-      margin-top: 0.5rem;
+    .order-1 {
+      order: 1;
     }
 
-    .intro-text {
-      padding-top: 10px;
-      > div {
-        padding: 30px;
-        padding-bottom: 0;
+    .order-2 {
+      order: 2;
+    }
 
-        h1, h2 {
-          font-family: "Open Sans", Helvetica, Arial, sans-serif;
-          margin-top: 0;
-          margin-bottom: 1rem;
-          font-size: 1.5rem;
-          line-height: 1.2;
+    .embed-responsive {
+      border: 2px solid $white;
+      border-radius: 8px;
+    }
+
+    .header-text {
+      padding: 1em 0;
+      font-size: 3.5vw;
+      font-weight: bolder;
+      text-align: center;
+    }
+
+    #intro-section {
+      padding-bottom: 1em;
+
+      h1 {
+        min-height: 100px;
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: calc(24px + 1vw);
+        line-height: 1.2;
+        margin-top: 0.5rem;
+      }
+
+      .intro-text {
+        padding-top: 10px;
+        > div {
+          padding: 30px;
+          padding-bottom: 0;
+
+          h1, h2 {
+            font-family: "Open Sans", Helvetica, Arial, sans-serif;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            line-height: 1.2;
+          }
+
         }
 
+        #attribution {
+          padding-top: 0;
+          font-size: 0.9rem;
+        }
       }
 
-      #attribution {
-        padding-top: 0;
-        font-size: 0.9rem;
+      .video {
+        width: 100%;
+        padding: 40px;
+        background: $p2pu-blue;
+        color: $white;
       }
+    }
+
+  }
+
+  &.pattern-header {
+    position: relative;
+    overflow: hidden;
+
+    #header-img, img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+
+    .header-text {
+      padding: 1em 0;
+      font-size: 3.5vw;
+      font-weight: bolder;
+      text-align: center;
+    }
+
+    #intro-section {
+      padding-top: 5%;
+      padding-bottom: 30px;
+
+      .intro-text {
+        padding: 30px;
+        background: $white;
+        color: $gray-darker;
+        padding-right: calc(8.35% + 30px);
+        box-shadow: -2px 2px 6px 1px rgba(0, 0, 0, 0.1);
+
+        h2 {
+          font-family: $font-family-sans-serif;
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .row {
+        align-items: center;
+      }
+
     }
 
     .video {
-      width: 100%;
-      padding: 40px;
-      background: $p2pu-blue;
-      color: $white;
+      position: absolute;
+      right: 0;
+      display: flex;
+      align-items: center;
+
+      .embed-responsive {
+        box-shadow: -2px 2px 6px 1px rgba(0, 0, 0, 0.1);
+      }
     }
   }
 }
@@ -234,44 +310,92 @@ footer {
   }
 
   #page-header {
-    padding-top: 0;
+    &.hero-header {
+      padding-top: 0;
 
-    .order-sm-1 {
-      order: 1;
-    }
-
-    .order-sm-2 {
-      order: 2;
-    }
-
-    #header-img {
-      position: relative;
-
-      img {
-        min-height: 66vh;
+      .order-sm-1 {
+        order: 1;
       }
 
-      .header-text {
-        flex-direction: column;
-        font-size: 15vh;
+      .order-sm-2 {
+        order: 2;
       }
 
-    }
-
-    #intro-section {
-      position: relative;
-
-      h1, h2 {
-        min-height: unset;
-      }
-
-      .intro-text {
+      #header-img {
         position: relative;
+
+        img {
+          min-height: 66vh;
+        }
+
+        .header-text {
+          flex-direction: column;
+          font-size: 15vh;
+        }
+
+      }
+
+      #intro-section {
+        position: relative;
+
+        h1, h2 {
+          min-height: unset;
+        }
+
+        .intro-text {
+          position: relative;
+          margin: 0;
+          > div {
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+
+    &.pattern-header {
+      padding-top: 0;
+
+      .container {
+        padding: 0;
         margin: 0;
-        > div {
-          padding: 30px;
-          background: white;
-          border-radius: 8px;
+        max-width: 100%;
+      }
+
+      #header-img {
+        img {
+          min-height: 66vh;
+        }
+
+        .header-text {
+          flex-direction: column;
+          font-size: 15vh;
+        }
+
+      }
+
+      #intro-section {
+        position: relative;
+
+        .intro-text {
+          position: relative;
+          margin: 0;
+          padding-right: 30px;
+          padding-bottom: calc(8.3% + 30px);
+        }
+
+        .embed-responsive {
+          margin-top: calc(-8.3% - 30px)
+        }
+
+        .row {
+          align-items: center;
+          justify-content: center;
+        }
+
+        .video {
+          position: relative;
         }
       }
     }
@@ -299,3 +423,23 @@ footer {
     }
   }
 }
+
+@media (max-width: 576px) {
+  #page-header {
+    &.pattern-header {
+      background-color: transparentize($p2pu-yellow, 0.5);
+
+      #intro-section {
+        .intro-text {
+          padding: 20px;
+        }
+
+        .embed-responsive {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+

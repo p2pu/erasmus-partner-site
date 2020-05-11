@@ -1,0 +1,29 @@
+<svg viewBox="0 0 900 800" class="background-triangle background d-none d-sm-block">
+  <polygon points="0,0 900,0 900,800" class="triangle-home"></polygon>
+</svg>
+
+<svg viewBox="0 0 900 800" class="background-triangle home d-none d-sm-block">
+  <polygon points="0,0 900,0 900,800" class="triangle-home"></polygon>
+</svg>
+
+<header id="page-header" class="pattern-header">
+  <img src="{{ site.baseurl }}/assets/img/p2pu-bg-dots.svg" alt="" class="d-sm-none" />
+  <div id="intro-section" class="container">
+    <div class="row">
+
+      <div class="col-12 col-sm-11 col-lg-8">
+        <div class="intro-text">
+          <h1>{{ page.header_text }}</h1>
+          <div>{{ page.hero | markdownify }}</div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-8 col-lg-5 video">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="{{page.header_video}}" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
