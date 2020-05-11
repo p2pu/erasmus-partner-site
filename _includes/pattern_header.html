@@ -1,6 +1,7 @@
 <div class="pattern-header">
   <div id="header-img">
-    <img src="{{site.baseurl}}/assets/img/{{ page.header_pattern }}" alt="" class="img-fluid">
+    {% assign header_pattern = page.header_pattern | default: 'p2pu-bg-dots.svg' %}
+    <img src="{{site.baseurl}}/assets/img/{{ header_pattern }}" alt="" class="img-fluid">
   </div>
 
   <header id="page-header">
