@@ -25,36 +25,20 @@ section {
   padding-bottom: $padding-md;
 }
 
-#header-img {
-  clip-path: polygon(0 100%, 100% 80%, 100% 0, 0 0);
-  filter: brightness(50%);
+.hero-header {
+  #header-img {
+    clip-path: polygon(0 100%, 100% 80%, 100% 0, 0 0);
+    filter: brightness(50%);
+    background-color: transparentize($p2pu-yellow, 0.5);
 
-  &, img {
-    width: 100%;
-    height: 65vh;
-    object-fit: cover;
+    &, img {
+      width: 100%;
+      height: 65vh;
+      object-fit: cover;
+    }
   }
-}
 
-.background-triangle {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 40vw;
-  z-index: 0;
-  -webkit-mask-image: url(../img/p2pu-bg-dots.svg);
-  mask-image: url(../img/p2pu-bg-dots.svg);
-  fill: $p2pu-yellow;
-}
-
-.background-triangle.background {
-  fill: transparentize($p2pu-yellow, 0.5);
-  -webkit-mask-image: none;
-  mask-image: none;
-}
-
-#page-header {
-  &.hero-header {
+  #page-header {
     position: relative;
     overflow: hidden;
     margin-top: -200px;
@@ -120,10 +104,25 @@ section {
         color: $white;
       }
     }
+  }
+}
 
+.pattern-header {
+  position: relative;
+
+  #header-img {
+    position: absolute;
+    clip-path: polygon(40% 0%, 100% 100%, 100% 0, 0 0);
+    background-color: transparentize($p2pu-yellow, 0.5);
+
+    &, img {
+      width: 100%;
+      height: 65vh;
+      object-fit: cover;
+    }
   }
 
-  &.pattern-header {
+  #page-header {
     position: relative;
     overflow: hidden;
 
@@ -309,8 +308,8 @@ footer {
     }
   }
 
-  #page-header {
-    &.hero-header {
+  .hero-header {
+    #page-header {
       padding-top: 0;
 
       .order-sm-1 {
@@ -320,41 +319,42 @@ footer {
       .order-sm-2 {
         order: 2;
       }
+    }
 
-      #header-img {
-        position: relative;
+    #header-img {
+      position: relative;
 
-        img {
-          min-height: 66vh;
-        }
-
-        .header-text {
-          flex-direction: column;
-          font-size: 15vh;
-        }
-
+      img {
+        min-height: 66vh;
       }
 
-      #intro-section {
-        position: relative;
-
-        h1, h2 {
-          min-height: unset;
-        }
-
-        .intro-text {
-          position: relative;
-          margin: 0;
-          > div {
-            padding: 30px;
-            background: white;
-            border-radius: 8px;
-          }
-        }
+      .header-text {
+        flex-direction: column;
+        font-size: 15vh;
       }
     }
 
-    &.pattern-header {
+    #intro-section {
+      position: relative;
+
+      h1, h2 {
+        min-height: unset;
+      }
+
+      .intro-text {
+        position: relative;
+        margin: 0;
+        > div {
+          padding: 30px;
+          background: white;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+
+  .pattern-header {
+    #page-header {
       padding-top: 0;
 
       .container {
@@ -362,41 +362,40 @@ footer {
         margin: 0;
         max-width: 100%;
       }
+    }
 
-      #header-img {
-        img {
-          min-height: 66vh;
-        }
-
-        .header-text {
-          flex-direction: column;
-          font-size: 15vh;
-        }
-
+    #header-img {
+      img {
+        min-height: 66vh;
       }
 
-      #intro-section {
+      .header-text {
+        flex-direction: column;
+        font-size: 15vh;
+      }
+    }
+
+    #intro-section {
+      position: relative;
+
+      .intro-text {
         position: relative;
+        margin: 0;
+        padding-right: 30px;
+        padding-bottom: calc(8.3% + 30px);
+      }
 
-        .intro-text {
-          position: relative;
-          margin: 0;
-          padding-right: 30px;
-          padding-bottom: calc(8.3% + 30px);
-        }
+      .embed-responsive {
+        margin-top: calc(-8.3% - 30px)
+      }
 
-        .embed-responsive {
-          margin-top: calc(-8.3% - 30px)
-        }
+      .row {
+        align-items: center;
+        justify-content: center;
+      }
 
-        .row {
-          align-items: center;
-          justify-content: center;
-        }
-
-        .video {
-          position: relative;
-        }
+      .video {
+        position: relative;
       }
     }
   }
@@ -425,18 +424,21 @@ footer {
 }
 
 @media (max-width: 576px) {
-  #page-header {
-    &.pattern-header {
-      background-color: transparentize($p2pu-yellow, 0.5);
+  .pattern-header {
+    #header-img {
+      &, img {
+        clip-path: none;
+        height: 100%;
+      }
+    }
 
-      #intro-section {
-        .intro-text {
-          padding: 20px;
-        }
+    #intro-section {
+      .intro-text {
+        padding: 20px;
+      }
 
-        .embed-responsive {
-          margin-top: 20px;
-        }
+      .embed-responsive {
+        margin-top: 20px;
       }
     }
   }
