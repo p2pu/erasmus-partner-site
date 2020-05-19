@@ -29,7 +29,10 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
 
     {% for bundle in page.bundles %}
-    <link rel="stylesheet" href="{{site.baseurl}}{{site.data.bundles[bundle]['css']}}">
+      <link rel="stylesheet" href="{{site.baseurl}}{{site.data.bundles[bundle]['css']}}">
+    {% endfor %}
+    {% for bundle in layout.bundles %}
+      <link rel="stylesheet" href="{{site.baseurl}}{{site.data.bundles[bundle]['css']}}">
     {% endfor %}
 
     {% if page.css %}
@@ -72,6 +75,10 @@ var scroll = new SmoothScroll('a[href*="#"]', { offset: 60 });
     </script>
 
     {% for bundle in page.bundles %}
+    <script src="{{site.baseurl}}{{site.data.bundles[bundle]['js']}}"></script>
+    {% endfor %}
+
+    {% for bundle in layout.bundles %}
     <script src="{{site.baseurl}}{{site.data.bundles[bundle]['js']}}"></script>
     {% endfor %}
 

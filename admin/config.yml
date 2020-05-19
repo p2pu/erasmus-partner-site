@@ -61,6 +61,12 @@ collections:
           - { label: 'Resource title', name: 'title', widget: 'string' }
           - { label: 'Resource URL', name: 'url', widget: 'string' }
           - { label: 'Resource image', name: 'image', widget: 'image' }
+    - label: 'GDPR page'
+      name: gdpr
+      file: gdpr.md
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'GDPR copy', name: 'gdpr_copy', widget: markdown }
     - label: 'Website footer'
       name: footer
       file: _data/footer.yml
