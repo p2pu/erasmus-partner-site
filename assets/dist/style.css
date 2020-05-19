@@ -7810,34 +7810,35 @@ section {
     font-size: 3.5vw;
     font-weight: bolder;
     text-align: center; }
-  .hero-header #page-header #intro-section {
-    padding-bottom: 1em; }
-    .hero-header #page-header #intro-section h1 {
-      min-height: 100px;
-      padding-right: 30px;
-      padding-left: 30px;
-      font-size: calc(24px + 1vw);
-      line-height: 1.2;
-      margin-top: 0.5rem; }
-    .hero-header #page-header #intro-section .intro-text {
-      padding-top: 10px; }
-      .hero-header #page-header #intro-section .intro-text > div {
-        padding: 30px;
-        padding-bottom: 0; }
-        .hero-header #page-header #intro-section .intro-text > div h1, .hero-header #page-header #intro-section .intro-text > div h2 {
-          font-family: "Open Sans", Helvetica, Arial, sans-serif;
-          margin-top: 0;
-          margin-bottom: 1rem;
-          font-size: 1.5rem;
-          line-height: 1.2; }
-      .hero-header #page-header #intro-section .intro-text #attribution {
-        padding-top: 0;
-        font-size: 0.9rem; }
-    .hero-header #page-header #intro-section .video {
-      width: 100%;
-      padding: 40px;
-      background: #05C6B4;
-      color: #fff; }
+
+.hero-header #intro-section {
+  padding-bottom: 1em; }
+  .hero-header #intro-section h1 {
+    min-height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: calc(24px + 1vw);
+    line-height: 1.2;
+    margin-top: 0.5rem; }
+  .hero-header #intro-section .intro-text {
+    padding-top: 10px; }
+    .hero-header #intro-section .intro-text > div {
+      padding: 30px;
+      padding-bottom: 0; }
+      .hero-header #intro-section .intro-text > div h1, .hero-header #intro-section .intro-text > div h2 {
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        line-height: 1.2; }
+    .hero-header #intro-section .intro-text #attribution {
+      padding-top: 0;
+      font-size: 0.9rem; }
+  .hero-header #intro-section .video {
+    width: 100%;
+    padding: 40px;
+    background: #05C6B4;
+    color: #fff; }
 
 .pattern-header {
   position: relative; }
@@ -7862,21 +7863,6 @@ section {
       font-size: 3.5vw;
       font-weight: bolder;
       text-align: center; }
-    .pattern-header #page-header #intro-section {
-      padding-top: 5%;
-      padding-bottom: 30px; }
-      .pattern-header #page-header #intro-section .intro-text {
-        padding: 30px;
-        background: #fff;
-        color: #515665;
-        padding-right: calc(8.35% + 30px);
-        box-shadow: -2px 2px 6px 1px rgba(0, 0, 0, 0.1); }
-        .pattern-header #page-header #intro-section .intro-text h2 {
-          font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-          font-size: 1.5rem;
-          margin-bottom: 1rem; }
-      .pattern-header #page-header #intro-section .row {
-        align-items: center; }
     .pattern-header #page-header .video {
       position: absolute;
       right: 0;
@@ -7884,6 +7870,21 @@ section {
       align-items: center; }
       .pattern-header #page-header .video .embed-responsive {
         box-shadow: -2px 2px 6px 1px rgba(0, 0, 0, 0.1); }
+  .pattern-header #intro-section {
+    padding-top: 5%;
+    padding-bottom: 30px; }
+    .pattern-header #intro-section .intro-text {
+      padding: 30px;
+      background: #fff;
+      color: #515665;
+      padding-right: calc(8.35% + 30px);
+      box-shadow: -2px 2px 6px 1px rgba(0, 0, 0, 0.1); }
+      .pattern-header #intro-section .intro-text h2 {
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.5rem;
+        margin-bottom: 1rem; }
+    .pattern-header #intro-section .row {
+      align-items: center; }
 
 #top-nav {
   background-color: #fff;
@@ -8013,6 +8014,9 @@ footer.home-footer {
   .pattern-header #header-img, .pattern-header #header-img img {
     clip-path: none;
     height: 100%; }
+  .pattern-header #page-header {
+    padding-top: 15px;
+    padding-bottom: 15px; }
   .pattern-header #intro-section .intro-text {
     padding: 20px; }
   .pattern-header #intro-section .embed-responsive {
