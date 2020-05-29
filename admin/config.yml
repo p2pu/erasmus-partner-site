@@ -61,6 +61,12 @@ collections:
           - { label: 'Resource title', name: 'title', widget: 'string' }
           - { label: 'Resource URL', name: 'url', widget: 'string' }
           - { label: 'Resource image', name: 'image', widget: 'image' }
+    - label: 'Course search page'
+      name: courses
+      file: courses.md
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Description', name: 'description', widget: 'markdown' }
     - label: 'GDPR page'
       name: gdpr
       file: gdpr.md
