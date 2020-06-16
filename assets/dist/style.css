@@ -7797,7 +7797,7 @@ section {
 .hero-header #page-header {
   position: relative;
   overflow: hidden;
-  margin-top: -200px; }
+  margin-top: -240px; }
   .hero-header #page-header .order-1 {
     order: 1; }
   .hero-header #page-header .order-2 {
@@ -7819,7 +7819,8 @@ section {
     padding-left: 30px;
     font-size: calc(24px + 1vw);
     line-height: 1.2;
-    margin-top: 0.5rem; }
+    margin-top: 0;
+    margin-bottom: 80px; }
   .hero-header #intro-section .intro-text {
     padding-top: 10px; }
     .hero-header #intro-section .intro-text > div {
@@ -7967,6 +7968,8 @@ footer.home-footer {
       font-size: 15vh; }
   .hero-header #intro-section {
     position: relative; }
+    .hero-header #intro-section h1 {
+      margin-bottom: 60px; }
     .hero-header #intro-section h1, .hero-header #intro-section h2 {
       min-height: unset; }
     .hero-header #intro-section .intro-text {
