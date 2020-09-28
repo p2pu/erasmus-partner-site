@@ -7,8 +7,6 @@ import {LearningCircleSignup} from "p2pu-search-cards";
 import "p2pu-search-cards/dist/build.css"
 import "p2pu-input-fields/dist/build.css"
 
-// import LearningCircleSignup from './components/learning-circle-signup';
-
 class App extends React.Component {
 
   constructor(props){
