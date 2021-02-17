@@ -1,11 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import {Search, BrowseLearningCircles} from "p2pu-search-cards";
-import {LearningCircleSignup} from "p2pu-search-cards";
+import {Search, BrowseLearningCircles} from "p2pu-components";
+import {LearningCircleSignup} from "p2pu-components";
 
-import "p2pu-search-cards/dist/build.css"
-import "p2pu-input-fields/dist/build.css"
+import "p2pu-components/dist/build.css"
 
 class App extends React.Component {
 
@@ -36,7 +35,7 @@ class App extends React.Component {
               onCancel={this.handleSignupDialogClose}
               learningCircle={this.state.selectedLearningCircle}
               signUpUrl='https://learningcircles.p2pu.org/api/signup/'
-            /> 
+            />
         }
         <div className={this.state.selectedLearningCircle?'d-none':''}>
           <Search
