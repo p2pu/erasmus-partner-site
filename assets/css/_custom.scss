@@ -41,7 +41,7 @@ section {
   #page-header {
     position: relative;
     overflow: hidden;
-    margin-top: -200px;
+    margin-top: -240px;
 
     .order-1 {
       order: 1;
@@ -74,7 +74,8 @@ section {
       padding-left: 30px;
       font-size: calc(24px + 1vw);
       line-height: 1.2;
-      margin-top: 0.5rem;
+      margin-top: 0;
+      margin-bottom: 80px;
     }
 
     .intro-text {
@@ -334,6 +335,10 @@ footer {
 
     #intro-section {
       position: relative;
+
+      h1 {
+        margin-bottom: 60px;
+      }
 
       h1, h2 {
         min-height: unset;
