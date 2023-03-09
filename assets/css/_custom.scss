@@ -280,8 +280,10 @@ footer.home-footer {
   }
 
   .logos {
+    display: flex;
+    flex-direction: row-reverse;
     img {
-      height: 50px;
+      height: 40px;
       margin-left: 10px;
     }
   }

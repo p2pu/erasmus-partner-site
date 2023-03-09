@@ -12137,8 +12137,12 @@ footer.home-footer .social-link a:hover {
 footer.home-footer .social-link a:hover i {
   color: #fff;
 }
+footer.home-footer .logos {
+  display: flex;
+  flex-direction: row-reverse;
+}
 footer.home-footer .logos img {
-  height: 50px;
+  height: 40px;
   margin-left: 10px;
 }
 footer.home-footer .toc {
