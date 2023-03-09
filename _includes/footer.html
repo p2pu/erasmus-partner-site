@@ -2,18 +2,18 @@
   <div class="contact-info">
     <div class="container">
       <div class="row links">
-        <div class="social">
+        <div class="col social">
           <div class="content">
             {% for link in site.data.footer.socials %}
-              <div class="social-link">
-                <a href="{{ link.url }}" title="{{ link.text }}">
-                  <i class="{{ link.icon_class }}" aria-hidden="true"></i>
-                </a>
-              </div>
+            <div class="social-link">
+              <a href="{{ link.url }}" title="{{ link.text }}">
+                <i class="{{ link.icon_class }}" aria-hidden="true"></i>
+              </a>
+            </div>
             {% endfor %}
           </div>
         </div>
-        <div class="logos">
+        <div class="col logos">
           <a href="https://ec.europa.eu/programmes/erasmus-plus/node_en">
             <img src="{{ site.baseurl }}/assets/img/erasmus-logo.svg" alt="Erasmus+ logo">
           </a>
@@ -27,21 +27,25 @@
 
   <div class="toc">
     <div class="container">
-      <div class="col-12">
-        <div class="notes">
-          <span>{{site.data.footer.license}}</span>
-          <span>{{site.data.footer.about_orgs}}</span>
-        </div>
-
-        <div class="links">
-          <span>
-            <a href="{{site.data.footer.tos.url}}" class="underline">{{site.data.footer.tos.title}}</a>
-          </span>
-          <span>
-            <a href="{{site.data.footer.privacy.url}}" class="underline">{{site.data.footer.privacy.title}}</a>
-          </span>
+      <div class="row">
+        <div class="col-12 text-center m-2">
+          <div class="notes">
+            <span>{{site.data.footer.license}}</span>
+            <span>{{site.data.footer.about_orgs}}</span>
+          </div>
+       
+          <div class="links">
+            <span>
+              <a href="{{site.data.footer.tos.url}}" class="underline">{{site.data.footer.tos.title}}</a>
+            </span>
+            <span>
+              <a href="{{site.data.footer.privacy.url}}" class="underline">{{site.data.footer.privacy.title}}</a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </footer>
+
+

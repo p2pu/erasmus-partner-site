@@ -1,50 +1,50 @@
 {
-  "name": "zlb",
-  "sideEffects": false,
-  "version": "1.0.0",
+  "name": "erasmus-partner-site",
   "description": "Unless indicated otherwise, all content is licensed CC-BY-SA and all code is licensed under the MIT license",
+  "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "dependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@popperjs/core": "^2.11.6",
+    "assets-webpack-plugin": "^7.1.1",
+    "autoprefixer": "^10.4.13",
     "axios": "^0.18.0",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^9.1.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-plugin-ttag": "^1.7.13",
-    "bootstrap": "^4.3.1",
-    "css-loader": "^2.1.1",
+    "bootstrap": "^5.2.3",
+    "css-loader": "^6.7.3",
     "jsonp": "^0.2.1",
+    "mini-css-extract-plugin": "^2.7.2",
     "moment": "^2.24.0",
-    "node-sass": "^4.11.0",
-    "p2pu-input-fields": "0.5.24",
-    "p2pu-search-cards": "0.16.7",
-    "p2pu-theme": "^1.1.3",
-    "rc-time-picker": "^3.6.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-telephone-input": "^4.73.4",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "ttag": "^1.7.13",
-    "ttag-cli": "^1.7.13",
-    "webpack": "^4.30.0"
-  },
-  "devDependencies": {
-    "@babel/preset-react": "^7.0.0",
-    "assets-webpack-plugin": "^3.9.10",
-    "file-loader": "^6.0.0",
-    "mini-css-extract-plugin": "^0.6.0",
+    "p2pu-components": "file:p2pu-components",
+    "p2pu-theme": "file:p2pu-theme",
+    "postcss-loader": "^7.0.2",
     "promise-polyfill": "^8.1.0",
-    "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-cli": "^3.3.1",
+    "rc-time-picker": "^3.6.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-telephone-input": "^5.0.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "ttag": "^1.7.24",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "whatwg-fetch": "^3.0.0"
   },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^3.3.2"
+  },
   "scripts": {
-    "build": "webpack --mode production --optimize-minimize",
+    "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "watch": "webpack --mode development --watch",
-    "profile": "webpack --mode production --optimize-minimize --config webpack.config.profile.js"
+    "profile": "webpack --mode production --config webpack.config.profile.js"
   },
   "repository": {
     "type": "git",
@@ -54,7 +54,7 @@
   "license": "MIT",
   "babel": {
     "presets": [
-      "@babel/env"
+      "@babel/react"
     ],
     "plugins": [
       "transform-react-jsx",

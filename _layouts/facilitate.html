@@ -15,7 +15,7 @@ layout: base
       </div>
       <div class="col-12 col-lg-6">
         <div class="media d-flex justify-content-center">
-          <!--img src="{{ site.baseurl }}/assets/images/organize/organize-header.jpg" alt="" class="img-fluid"-->
+          <img src="{{ site.baseurl }}/assets/img/facilitate-header.jpg" alt="" class="img-fluid">
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ layout: base
       <div class="row resources">
 
       {% for resource in page.resources %}
-        <div class="resource-card organize col-12 col-md-6 col-lg-4 p-md-3">
+      <div class="resource-card organize col-12 col-md-6 col-lg-4 p-md-3 {% if resource.tag %}position-relative{% endif %}">
           {% if resource.url contains 'http' %}
           <a href="{{ resource.url }}">
           {% else %}
@@ -55,7 +55,7 @@ layout: base
               {% endif %}
               {% if resource.tag %}
               <div class="overlay">
-                <div class="topic-type minicaps">{{ resource.tag }}</div>
+                <div class="topic-type text-uppercase">{{ resource.tag }}</div>
               </div>
               {% endif %}
             </div>

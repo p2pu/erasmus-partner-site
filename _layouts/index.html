@@ -2,13 +2,8 @@
 layout: base
 ---
 <div class="page-wrapper">
-  {% if page.header_image %}
-  {% include hero_header.html page=page %}
-  {% else %}
-  {% include pattern_header.html page=page %}
-  {% endif %}
-
-  <section id="learning-circles" class="container">
+  {% include {{page.header}} page=page %}
+  <section id="learning-circles" class="container search">
     <div class="row">
       <div class="col-12 mb-3">
         <h1>{{ page.search_title }}</h1>

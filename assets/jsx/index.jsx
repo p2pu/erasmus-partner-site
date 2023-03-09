@@ -1,11 +1,35 @@
 import React from 'react';
 import { render } from 'react-dom';
+import {t} from 'ttag';
 
-import {Search, BrowseLearningCircles} from "p2pu-search-cards";
-import {LearningCircleSignup} from "p2pu-search-cards";
+import SearchProvider from 'p2pu-components/dist/Search/SearchProvider';
+import LearningCircleSignup from 'p2pu-components/dist/LearningCircleSignup/LearningCircleSignup';
+import SearchBar from 'p2pu-components/dist/Search/SearchBar';
+import SearchTags from 'p2pu-components/dist/Search/SearchTags';
+import BrowseLearningCircles from 'p2pu-components/dist/LearningCircles/Browse';
+import DefaultNoResults from 'p2pu-components/dist/Search/DefaultNoResults';
 
-import "p2pu-search-cards/dist/build.css"
-import "p2pu-input-fields/dist/build.css"
+//import "p2pu-components/dist/build.css"
+
+const CustomSearch = (props) => {
+  return (
+    <>
+      <div className="search-fields row g-0">
+        <div className="bg-white shadow col-12">
+          <SearchBar 
+            placeholder={t`Keyword, organization, facilitator, etc...`}
+            {...props} 
+          />
+        </div>
+      </div>
+      <SearchTags {...props} />
+      <BrowseLearningCircles
+        {...props}
+        NoResultsComponent={DefaultNoResults}
+      />
+    </>
+  );
+}
 
 class App extends React.Component {
 
@@ -39,12 +63,16 @@ class App extends React.Component {
             /> 
         }
         <div className={this.state.selectedLearningCircle?'d-none':''}>
-          <Search
+          <SearchProvider
+            origin="https://learningcircles.p2pu.org"
+            initialState={{team_id: 28}}
             searchSubject={'learningCircles'}
             locale="en"
+            defaultImageUrl="/assets/img/p2pu-ogimg-default.jpg"
             onSelectResult={this.handleLearningCircleSelection}
-            Browse={BrowseLearningCircles}
-          />
+          >
+            <CustomSearch />
+          </SearchProvider>
         </div>
       </div>
     );
