@@ -17,15 +17,11 @@ section#facilitator-landing {
     width: 0;
     height: 0;
     right: 50%;
-    transform: translateX(24px) translateY(62px);
+    transform: translateX(24px) translateY(42px);
     border-left: 24px solid transparent;
     border-right: 24px solid transparent;
     border-top: 18px solid #FFBC1A;
     z-index: 1;
-  }
-
-  .welcome-text {
-    margin: $padding-md 0;
   }
 
   .modal.fade.in {

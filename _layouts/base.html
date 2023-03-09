@@ -26,13 +26,9 @@
     <!-- AOS -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/aos.css">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
 
     {% for bundle in page.bundles %}
-      <link rel="stylesheet" href="{{site.baseurl}}{{site.data.bundles[bundle]['css']}}">
-    {% endfor %}
-    {% for bundle in layout.bundles %}
-      <link rel="stylesheet" href="{{site.baseurl}}{{site.data.bundles[bundle]['css']}}">
+    <link rel="stylesheet" href="{{site.baseurl}}{{site.data.bundles[bundle]['css']}}">
     {% endfor %}
 
     {% if page.css %}
@@ -54,35 +50,13 @@
 
     {% include footer.html %}
 
-    <!-- Jquery & Bootstrap -->
-
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-
     <!-- AOS -->
     <script src="{{site.baseurl}}/assets/js/aos.js"></script>
-    <script>
-AOS.init({
-});
-    </script>
-
-    <!-- Smooth Scroll -->
-    <script src="{{site.baseurl}}/assets/js/smooth-scroll.polyfills.min.js"></script>
-    <script>
-var scroll = new SmoothScroll('a[href*="#"]', { offset: 60 });
-    </script>
+    <script>AOS.init({});</script>
 
     {% for bundle in page.bundles %}
     <script src="{{site.baseurl}}{{site.data.bundles[bundle]['js']}}"></script>
     {% endfor %}
 
-    {% for bundle in layout.bundles %}
-    <script src="{{site.baseurl}}{{site.data.bundles[bundle]['js']}}"></script>
-    {% endfor %}
-
-
   </body>
-
 </html>

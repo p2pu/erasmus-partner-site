@@ -1,20 +1,22 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="top-nav">
-  <div class="logos">
-    <a class="navbar-brand" href="https://www.p2pu.org/en/">
-      <img src="{{site.baseurl}}/assets/img/p2pu-logo.svg" alt="P2PU logo">
-    </a>
-    <a class="navbar-brand" href="{{site.data.nav.org.url}}">
-      <img height="38px" src="{{site.baseurl}}{{site.data.nav.org.logo_url}}" alt="Partner logo">
-    </a>
-  </div>
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="nav navbar-nav">
-      {% for link in site.data.nav.topnav %}
-        <a class="nav-item nav-link minicaps data-scroll" href="{{site.baseurl}}{{link.url}}">{{link.title}}</a>
-      {% endfor %}
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top bg-white shadow-sm" id="top-nav">
+  <div class="container-fluid">
+    <div class="navbar-brand">
+      <a class="me-2" href="https://www.p2pu.org/en/">
+        <img src="{{site.baseurl}}/assets/img/p2pu-logo.svg" alt="P2PU logo">
+      </a>
+      <a class="" href="{{site.data.nav.org.url}}">
+        <img height="38px" src="{{site.baseurl}}{{site.data.nav.org.logo_url}}" alt="Partner logo">
+      </a>
+    </div>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="nav navbar-nav">
+        {% for link in site.data.nav.topnav %}
+          <a class="nav-item nav-link minicaps data-scroll" href="{{site.baseurl}}{{link.url}}">{{link.title}}</a>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </nav>

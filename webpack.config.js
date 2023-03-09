@@ -8,7 +8,7 @@ module.exports = {
   entry: {
     index: './assets/jsx/index.jsx',
     courses: './assets/jsx/courses.jsx',
-    style: './assets/css/base.scss',
+    style: './assets/jsx/style.jsx',
   },
   module: {
     rules: [
@@ -17,18 +17,19 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader:  "babel-loader",
-          options: {
-            plugins: [
-              [
-                'ttag', {
-                  extract: { output: 'i18n/poly.pot' },
-                  resolve: { translations: `i18n/de.po` },
-                  numberedExpressions: false,
-                },
-              ],
-            ],
-          },
         },
+      },
+      /*{
+        mimetype: 'image/svg+xml',
+        scheme: 'data',
+        type: 'asset/resource',
+        generator: {
+          filename: 'icons/[hash].svg'
+        }
+      },*/
+      {
+        test: /\.woff2?$|\.ttf$|\.eot$|\.svg$|\.png$/,
+        type: 'asset/resource',
       },
       {
         test: /\.(css|sass|scss)$/,
@@ -36,27 +37,21 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
-            options: {
+            /*options: {
               importLoaders: 2,
               sourceMap: true
-            }
+            }*/
           },
+          { loader: 'resolve-url-loader' },
           {
             loader: 'sass-loader',
             options: {
-              sourceMap: true
-            }
-          }
-        ]
-      },
-      {
-        test: /\.woff2?$|\.ttf$|\.eot$|\.svg$|\.png$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              esModule: false,
-              extract: true,
+              sourceMap: true,
+              sassOptions: {
+                includePaths: [
+                  path.resolve("./assets/css/"),
+                ]
+              }
             }
           }
         ]
@@ -64,7 +59,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /de/),
     new MiniCssExtractPlugin({
       filename: "[name].css",
     }),
@@ -73,12 +67,16 @@ module.exports = {
       path: path.resolve('./_data'),
     }),
   ],
-  resolve: {
+  /*resolve: {
     extensions: ['.js', '.jsx', '.scss']
+  },*/
+  optimization: {
+    usedExports: true,
   },
   output: {
-    path: path.resolve(__dirname, 'assets/dist'),
     filename: '[name].js',
+    path: path.resolve(__dirname, 'assets/dist'),
     publicPath: '/assets/dist/',
+    assetModuleFilename: '[name]-[hash][ext][query]',
   },
 };

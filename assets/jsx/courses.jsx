@@ -1,36 +1,26 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import {Search, BrowseCourses} from "p2pu-search-cards";
+import SearchProvider from 'p2pu-components/dist/Search/SearchProvider'
+import SearchCourses from 'p2pu-components/dist/Courses/SearchCourses'
 
-import "p2pu-search-cards/dist/build.css"
-import "p2pu-input-fields/dist/build.css"
+//import 'p2pu-components/dist/build.css';
 
+const handleSelectResult = course => {
+  const selectCourse = `https://learningcircles.p2pu.org/en/studygroup/create/?course_id=${course.id}`;
+  window.location.href = selectCourse;
+}
+const elem = document.getElementById('search-courses-component');
+const origin = 'https://learningcircles.p2pu.org';
 
-class App extends React.Component {
-
-  constructor(props){
-    super(props);
-    this.state = {
-    };
-  }
-
-  render() {
-    return (
-      <div>
-        <div>
-          <Search
-            searchSubject={'courses'}
-            locale="en"
-            moreInfo={false}
-            courseLink={true}
-            initialState={{languages: ['fi']}}
-            Browse={BrowseCourses}
-          />
-        </div>
-      </div>
-    );
-  }
-};
-
-render(<App />, document.getElementById("course-search"));
+render(
+  <SearchProvider
+    searchSubject={'courses'}
+    origin={origin}
+    onSelectResult={handleSelectResult}
+    initialState={{languages:['en']}}
+  >
+    <SearchCourses/>
+  </SearchProvider>,
+  document.getElementById('course-search')
+);

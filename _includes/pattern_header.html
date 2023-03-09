@@ -1,14 +1,13 @@
 <div class="pattern-header">
   <div id="header-img">
-    {% assign header_pattern = page.header_pattern | default: 'p2pu-bg-dots.svg' %}
-    <img src="{{site.baseurl}}/assets/img/{{ header_pattern }}" alt="" class="img-fluid">
+    <img src="{{site.baseurl}}/assets/img/{{ page.header_pattern }}" alt="" class="img-fluid">
   </div>
 
   <header id="page-header">
     <div id="intro-section" class="container">
-      <div class="row">
+      <div class="row position-relative">
 
-        <div class="col-12 col-sm-11 col-lg-8 mt-sm-5 mt-lg-0">
+        <div class="col-12 col-sm-11 col-lg-8">
           <div class="intro-text">
             <h1>{{ page.header_text }}</h1>
             <div>{{ page.hero | markdownify }}</div>
@@ -16,7 +15,7 @@
         </div>
 
         <div class="col-12 col-sm-8 col-lg-5 video">
-          <div class="embed-responsive embed-responsive-16by9">
+          <div class="ratio ratio-16x9">
             <iframe class="embed-responsive-item" src="{{page.header_video}}" allowfullscreen></iframe>
           </div>
         </div>

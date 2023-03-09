@@ -1,3 +1,9 @@
 title: P2PU Hogwarts
 description: P2PU learning circle team template
 language: en
+exclude:
+  - p2pu-components
+  - p2pu-theme
+  - node_modules
+  - node_modules/
+  - .bundler
